@@ -63,11 +63,11 @@ class voice():
             print 'data error to fft!'
             return False
 
+if __name__ == '__main__':
+    p = voice()
 
-p = voice()
-
-p.loaddata('C:\data\music\\audio\\audio\\ (1).wav')
-p.fft()
-for i in p.hashlist:
-    print i
-print p.name
+    p.loaddata('C:\data\music\\audio\\audio\\ (1).wav')
+    p.fft()
+    for i in p.hashlist:
+        print i
+    print p.name

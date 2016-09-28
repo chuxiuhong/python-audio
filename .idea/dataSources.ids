@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - fingerprint@localhost" uuid="21d35448-0f78-4b00-a539-fe2ee623d1c1">
+    <database-info product="MySQL" version="5.6.32" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+      <schema id="1" name="fingerprint">
+        <visible>1</visible>
+      </schema>
+      <schema id="2" name="bookdb"/>
+      <schema id="3" name="haha"/>
+      <schema id="4" name="information_schema"/>
+      <schema id="5" name="kdd"/>
+      <schema id="6" name="mysql"/>
+      <schema id="7" name="performance_schema"/>
+      <schema id="8" name="test"/>
+      <schema id="9" name="test1"/>
+      <schema id="10" name="villa"/>
+      <table id="11" parent="1" name="fp"/>
+      <table id="12" parent="1" name="song"/>
+      <column id="13" parent="11" name="fingerprint">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="14" parent="11" name="id">
+        <mandatory>1</mandatory>
+        <data-type>text|0</data-type>
+      </column>
+      <key id="15" parent="11" name="PRIMARY">
+        <columns>fingerprint</columns>
+        <primary>1</primary>
+      </key>
+      <column id="16" parent="12" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="17" parent="12" name="name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <key id="18" parent="12" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>
