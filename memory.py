@@ -3,18 +3,46 @@
 import os
 
 import MySQLdb
-
+import pyaudio
 
 class memory():
+    def __init__(self,host,port,user,passwd,db):
+        self.host = host
+        self.port = port
+        self.user = user
+        self.passwd = passwd
+        self.db = db
     def AddNewSong(self, path):
+        if type(path) != str:
+            print 'path need string'
+            return None
         basename = os.path.basename(path)
-        print basename
-        conn = MySQLdb.connect(host='localhost', port=3306, user='root', passwd='', db='fingerprint')
+        try:
+            conn = MySQLdb.connect(host=self.host, port=self.port, user=self.user, passwd=self.passwd, db=self.db,charset='utf8')
+        except:
+            print 'DataBase error'
+            return None
         cur = conn.cursor()
-        cur.execute("insert into song VALUES(NULL,123);")
+        cur.execute("insert into song VALUES(NULL,'%s' );"%basename)
+        conn.commit()
+        cur.execute("select * from song WHERE  name='%s'"%basename)
+        tuple_result = cur.fetchone()#存储歌曲的id和name
+        v = pyaudio.voice()
+        v.loaddata(path)
+        v.fft()
+        for i in v.hashlist:
+            count = cur.execute("select * from fp WHERE fingerprint.fp.fingerprint = '%d'"%i[0])
+            if count > 0:
+                temp = cur.fetchone()
+                print temp[0]
+                id_temp = temp[1] +tuple_result[0].__str__()+ ' ' + i[1].__str__() + ';'
+                cur.execute("UPDATE fingerprint.fp set id = '%s' WHERE fingerprint = '%s'"%(id_temp,temp[0]))
+            else:
+                print i[0]
+                print tuple_result[0].__str__()+' '+ i[1].__str__() + ';'
+                cur.execute("insert into fp VALUES(%d,'%s')"%(i[0],tuple_result[0].__str__()+' '+ i[1].__str__() + ';'))
         conn.commit()
         cur.close()
         conn.close()
-
-sss = memory()
-sss.AddNewSong('output2.wav')
+sss = memory('localhost',3306,'root','','fingerprint')
+sss.AddNewSong('C:\data\music\\audio\\audio\\ (1).wav')

@@ -23,7 +23,7 @@
       <table id="12" parent="1" name="song"/>
       <column id="13" parent="11" name="fingerprint">
         <mandatory>1</mandatory>
-        <data-type>int(11)|0</data-type>
+        <data-type>int(15)|0</data-type>
         <default-expression>&apos;0&apos;</default-expression>
       </column>
       <column id="14" parent="11" name="id">
