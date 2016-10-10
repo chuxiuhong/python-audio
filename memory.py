@@ -51,6 +51,6 @@ class memory():
         cur.close()
         conn.close()
 
-    def
+
 sss = memory('localhost', 3306,'root','','fingerprint')
 sss.AddNewSong('C:\data\music\\audio\\audio\\ (2).wav')
