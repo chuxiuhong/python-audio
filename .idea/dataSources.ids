@@ -19,35 +19,43 @@
       <schema id="8" name="test"/>
       <schema id="9" name="test1"/>
       <schema id="10" name="villa"/>
-      <table id="11" parent="1" name="fp"/>
-      <table id="12" parent="1" name="song"/>
-      <column id="13" parent="11" name="fingerprint">
+      <schema id="11" name="coder_market"/>
+      <table id="12" parent="1" name="fp"/>
+      <table id="13" parent="1" name="song"/>
+      <table id="14" parent="1" name="song_finger"/>
+      <column id="15" parent="12" name="fingerprint">
         <mandatory>1</mandatory>
         <data-type>int(15)|0</data-type>
         <default-expression>&apos;0&apos;</default-expression>
       </column>
-      <column id="14" parent="11" name="id">
+      <column id="16" parent="12" name="id">
         <mandatory>1</mandatory>
         <data-type>text|0</data-type>
       </column>
-      <key id="15" parent="11" name="PRIMARY">
+      <key id="17" parent="12" name="PRIMARY">
         <columns>fingerprint</columns>
         <primary>1</primary>
       </key>
-      <column id="16" parent="12" name="id">
+      <column id="18" parent="13" name="id">
         <mandatory>1</mandatory>
         <data-type>int(10) unsigned|0</data-type>
         <sequence-identity>1</sequence-identity>
       </column>
-      <column id="17" parent="12" name="name">
+      <column id="19" parent="13" name="name">
         <mandatory>1</mandatory>
         <data-type>varchar(50)|0</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <key id="18" parent="12" name="PRIMARY">
+      <key id="20" parent="13" name="PRIMARY">
         <columns>id</columns>
         <primary>1</primary>
       </key>
+      <column id="21" parent="14" name="id">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="22" parent="14" name="song_finger">
+        <data-type>text|0</data-type>
+      </column>
     </database-model>
   </data-source>
 </component>
