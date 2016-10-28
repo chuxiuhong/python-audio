@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="505acf67-54aa-487f-a322-a4c79f0c9d47" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SELECT_t___FROM_fingerprint_fp_t.txt" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pyaudio.py" afterPath="$PROJECT_DIR$/my_audio.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/python-audio.iml" afterPath="$PROJECT_DIR$/.idea/python-audio.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/memory.py" afterPath="$PROJECT_DIR$/memory.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/record.py" afterPath="$PROJECT_DIR$/record.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_audio.py" afterPath="$PROJECT_DIR$/my_audio.py" />
     </list>
     <ignored path="python-audio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,9 +22,10 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/python-audio$pyaudiotest.coverage" NAME="pyaudiotest Coverage Results" MODIFIED="1475040873240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python-audio$memory.coverage" NAME="memory Coverage Results" MODIFIED="1477550714068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python-audio$memory.coverage" NAME="memory Coverage Results" MODIFIED="1477673302300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python-audio$pyaudio.coverage" NAME="pyaudio Coverage Results" MODIFIED="1475113581685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python-audio$LCS.coverage" NAME="LCS Coverage Results" MODIFIED="1476083467029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/python-audio$my_audio.coverage" NAME="my_audio Coverage Results" MODIFIED="1477639311902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -58,34 +57,6 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
-        <option name="myItemId" value="song_finger" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - fingerprint@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="song" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - fingerprint@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
         <option name="myItemId" value="fp" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
@@ -100,8 +71,8 @@
       <file leaf-file-name="my_audio.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_audio.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+            <state relative-caret-position="1464">
+              <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding>
                 <element signature="e#14#23#0" expanded="true" />
               </folding>
@@ -109,28 +80,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="memory.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="memory.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/memory.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+            <state relative-caret-position="2184">
+              <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
               <folding>
                 <element signature="e#16#25#0" expanded="true" />
-                <marker date="1477551522539" expanded="true" signature="737:773" ph="select * fro... song" />
-                <marker date="1477551522539" expanded="true" signature="905:940" ph="insert into song... " />
-                <marker date="1477551522539" expanded="true" signature="998:1033" ph="select * fro... song" />
-                <marker date="1477551522539" expanded="true" signature="1123:1165" ph="insert into song_finger... " />
-                <marker date="1477551522539" expanded="true" signature="1328:1384" ph="select * fro... fp" />
-                <marker date="1477551522539" expanded="true" signature="1449:1505" ph="select * fro... fp" />
-                <marker date="1477551522539" expanded="true" signature="1740:1800" ph="UPDATE finge... " />
-                <marker date="1477551522539" expanded="true" signature="1999:2029" ph="insert into fp... " />
+                <marker date="1477672886434" expanded="true" signature="737:773" ph="select * fro... song" />
+                <marker date="1477672886434" expanded="true" signature="905:940" ph="insert into song... " />
+                <marker date="1477672886434" expanded="true" signature="998:1033" ph="select * fro... song" />
+                <marker date="1477672886434" expanded="true" signature="1329:1385" ph="select * fro... fp" />
+                <marker date="1477672886434" expanded="true" signature="1450:1506" ph="select * fro... fp" />
+                <marker date="1477672886434" expanded="true" signature="1741:1801" ph="UPDATE finge... " />
+                <marker date="1477672886434" expanded="true" signature="2000:2030" ph="insert into fp... " />
+                <marker date="1477672886434" expanded="true" signature="2716:2738" ph="select * fro... fp" />
+                <marker date="1477672886434" expanded="true" signature="2905:2958" ph="select * fro... fp" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="fingerprint.song_finger" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/9d5afa52/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+        <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fingerprint.song" pinned="false" current-in-tab="true">
+        <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song">
           <provider editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -145,22 +132,7 @@
         </entry>
       </file>
       <file leaf-file-name="fingerprint.fp" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/9d5afa52/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.fp">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fingerprint.song" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/9d5afa52/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song">
+        <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.fp">
           <provider editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -177,8 +149,8 @@
       <file leaf-file-name="record.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/record.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+            <state relative-caret-position="648">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
                 <element signature="e#13#24#0" expanded="true" />
               </folding>
@@ -206,6 +178,8 @@
         <option value="dbtable:/9d5afa52/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.fp" />
         <option value="$PROJECT_DIR$/pyaudio.py" />
         <option value="$PROJECT_DIR$/record.py" />
+        <option value="$PROJECT_DIR$/my_audio.py" />
+        <option value="dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song" />
         <option value="$PROJECT_DIR$/memory.py" />
       </list>
     </option>
@@ -217,8 +191,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="3000" />
-    <option name="height" value="1930" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -245,6 +221,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -266,7 +243,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -346,6 +322,24 @@
       <module name="python-audio" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../LCS.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="my_audio" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-audio" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_audio.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -558,18 +552,20 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.pyaudiotest" />
       <item index="1" class="java.lang.String" itemvalue="Python.memory" />
       <item index="2" class="java.lang.String" itemvalue="Python.pyaudio" />
       <item index="3" class="java.lang.String" itemvalue="Python.LCS" />
+      <item index="4" class="java.lang.String" itemvalue="Python.my_audio" />
     </list>
     <recent_temporary>
-      <list size="4">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.memory" />
-        <item index="1" class="java.lang.String" itemvalue="Python.LCS" />
-        <item index="2" class="java.lang.String" itemvalue="Python.pyaudio" />
-        <item index="3" class="java.lang.String" itemvalue="Python.pyaudiotest" />
+        <item index="1" class="java.lang.String" itemvalue="Python.my_audio" />
+        <item index="2" class="java.lang.String" itemvalue="Python.LCS" />
+        <item index="3" class="java.lang.String" itemvalue="Python.pyaudio" />
+        <item index="4" class="java.lang.String" itemvalue="Python.pyaudiotest" />
       </list>
     </recent_temporary>
   </component>
@@ -633,28 +629,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="3000" height="1930" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17517242" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22907725" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2548276" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32822627" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32206303" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35179728" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3512576" sideWeight="0.5017065" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26341203" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3216308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893983" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995286" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="100" width="2800" height="1730" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45866364" sideWeight="0.49829352" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995286" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -699,389 +696,51 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/record.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-          <folding>
-            <element signature="e#13#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_audio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/memory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2496">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#25#0" expanded="true" />
-            <marker date="1477551522539" expanded="true" signature="737:773" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="905:940" ph="insert into song... " />
-            <marker date="1477551522539" expanded="true" signature="998:1033" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="1123:1165" ph="insert into song_finger... " />
-            <marker date="1477551522539" expanded="true" signature="1328:1384" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1449:1505" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1740:1800" ph="UPDATE finge... " />
-            <marker date="1477551522539" expanded="true" signature="1999:2029" ph="insert into fp... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/record.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding>
-            <element signature="e#13#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_audio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2880">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/memory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2496">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#25#0" expanded="true" />
-            <marker date="1477551522539" expanded="true" signature="737:773" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="905:940" ph="insert into song... " />
-            <marker date="1477551522539" expanded="true" signature="998:1033" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="1123:1165" ph="insert into song_finger... " />
-            <marker date="1477551522539" expanded="true" signature="1328:1384" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1449:1505" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1740:1800" ph="UPDATE finge... " />
-            <marker date="1477551522539" expanded="true" signature="1999:2029" ph="insert into fp... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/record.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding>
-            <element signature="e#13#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../LCS.py" />
-    <entry file="file://$PROJECT_DIR$/my_audio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2880">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/memory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2496">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#25#0" expanded="true" />
-            <marker date="1477551522539" expanded="true" signature="737:773" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="905:940" ph="insert into song... " />
-            <marker date="1477551522539" expanded="true" signature="998:1033" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="1123:1165" ph="insert into song_finger... " />
-            <marker date="1477551522539" expanded="true" signature="1328:1384" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1449:1505" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1740:1800" ph="UPDATE finge... " />
-            <marker date="1477551522539" expanded="true" signature="1999:2029" ph="insert into fp... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/record.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding>
-            <element signature="e#13#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../LCS.py" />
-    <entry file="file://$PROJECT_DIR$/my_audio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/memory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2640">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#25#0" expanded="true" />
-            <marker date="1477551522539" expanded="true" signature="737:773" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="905:940" ph="insert into song... " />
-            <marker date="1477551522539" expanded="true" signature="998:1033" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="1123:1165" ph="insert into song_finger... " />
-            <marker date="1477551522539" expanded="true" signature="1328:1384" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1449:1505" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1740:1800" ph="UPDATE finge... " />
-            <marker date="1477551522539" expanded="true" signature="1999:2029" ph="insert into fp... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/record.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1248">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding>
-            <element signature="e#13#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/ebf30e51/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song" />
-    <entry file="file://$PROJECT_DIR$/my_audio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1920">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/memory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#25#0" expanded="true" />
-            <marker date="1477551522539" expanded="true" signature="737:773" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="905:940" ph="insert into song... " />
-            <marker date="1477551522539" expanded="true" signature="998:1033" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="1123:1165" ph="insert into song_finger... " />
-            <marker date="1477551522539" expanded="true" signature="1328:1384" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1449:1505" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1740:1800" ph="UPDATE finge... " />
-            <marker date="1477551522539" expanded="true" signature="1999:2029" ph="insert into fp... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/ebf30e51/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.fp" />
-    <entry file="file://$PROJECT_DIR$/record.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding>
-            <element signature="e#13#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/ebf30e51/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song" />
-    <entry file="file://$PROJECT_DIR$/my_audio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2048">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/memory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#25#0" expanded="true" />
-            <marker date="1477551522539" expanded="true" signature="737:773" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="905:940" ph="insert into song... " />
-            <marker date="1477551522539" expanded="true" signature="998:1033" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="1123:1165" ph="insert into song_finger... " />
-            <marker date="1477551522539" expanded="true" signature="1328:1384" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1449:1505" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1740:1800" ph="UPDATE finge... " />
-            <marker date="1477551522539" expanded="true" signature="1999:2029" ph="insert into fp... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/ebf30e51/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.fp" />
-    <entry file="file://$PROJECT_DIR$/record.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding>
-            <element signature="e#13#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/ebf30e51/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song" />
-    <entry file="file://$PROJECT_DIR$/my_audio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2176">
-          <caret line="72" column="16" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
-          <folding>
-            <element signature="e#14#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/memory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#25#0" expanded="true" />
-            <marker date="1477551522539" expanded="true" signature="737:773" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="905:940" ph="insert into song... " />
-            <marker date="1477551522539" expanded="true" signature="998:1033" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="1123:1165" ph="insert into song_finger... " />
-            <marker date="1477551522539" expanded="true" signature="1328:1384" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1449:1505" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1740:1800" ph="UPDATE finge... " />
-            <marker date="1477551522539" expanded="true" signature="1999:2029" ph="insert into fp... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/ebf30e51/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.fp" />
-    <entry file="file://$PROJECT_DIR$/record.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding>
-            <element signature="e#13#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/ebf30e51/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song" />
-    <entry file="file://$PROJECT_DIR$/my_audio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3072">
-          <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="53" />
-          <folding>
-            <element signature="e#14#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/memory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#25#0" expanded="true" />
-            <marker date="1477551522539" expanded="true" signature="737:773" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="905:940" ph="insert into song... " />
-            <marker date="1477551522539" expanded="true" signature="998:1033" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="1123:1165" ph="insert into song_finger... " />
-            <marker date="1477551522539" expanded="true" signature="1328:1384" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1449:1505" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1740:1800" ph="UPDATE finge... " />
-            <marker date="1477551522539" expanded="true" signature="1999:2029" ph="insert into fp... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/ebf30e51/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.fp" />
-    <entry file="file://$PROJECT_DIR$/record.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding>
-            <element signature="e#13#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyaudiotest.py" />
-    <entry file="file://$PROJECT_DIR$/memory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#25#0" expanded="true" />
-            <marker date="1477551522539" expanded="true" signature="737:773" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="905:940" ph="insert into song... " />
-            <marker date="1477551522539" expanded="true" signature="998:1033" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="1123:1165" ph="insert into song_finger... " />
-            <marker date="1477551522539" expanded="true" signature="1328:1384" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1449:1505" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1740:1800" ph="UPDATE finge... " />
-            <marker date="1477551522539" expanded="true" signature="1999:2029" ph="insert into fp... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/record.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding>
-            <element signature="e#13#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyaudiotest.py" />
-    <entry file="file://C:/Python27/Lib/site-packages/MySQLdb/cursors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10892">
-          <caret line="186" column="0" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/ebf30e51/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.fp" />
-    <entry file="dbDummy://dbtable:/ebf30e51/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song" />
-    <entry file="file://$PROJECT_DIR$/../LCS.py" />
-    <entry file="file://$PROJECT_DIR$/SELECT_t___FROM_fingerprint_fp_t.txt" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/21d35448-0f78-4b00-a539-fe2ee623d1c1/console.sql">
+    <entry file="dbDummy://dbtable:/9d5afa52/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song" />
+    <entry file="dbDummy://dbtable:/9d5afa52/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.fp" />
+    <entry file="file://$PROJECT_DIR$/.idea/python-audio.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_audio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
-          <folding>
-            <element signature="e#14#23#0" expanded="true" />
-          </folding>
+    <entry file="uml://AlchemyModelDependency/#python-audio">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>AlchemyModelDependency</ID>
+          <OriginalElement>#python-audio</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="761.0" y="264.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/9d5afa52/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+    <entry file="uml://Python/#D:/code/python-audio/my_audio.py">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#D:/code/python-audio/my_audio.py</OriginalElement>
+          <nodes>
+            <node x="" y="">my_audio.voice</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="77.0" y="-82.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1094,7 +753,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/9d5afa52/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song">
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1107,7 +766,407 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/9d5afa52/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.fp">
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_audio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1464">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1122,29 +1181,160 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/record.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        <state relative-caret-position="648">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="e#13#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.fp">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/memory.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        <state relative-caret-position="2184">
+          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
-            <marker date="1477551522539" expanded="true" signature="737:773" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="905:940" ph="insert into song... " />
-            <marker date="1477551522539" expanded="true" signature="998:1033" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="1123:1165" ph="insert into song_finger... " />
-            <marker date="1477551522539" expanded="true" signature="1328:1384" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1449:1505" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1740:1800" ph="UPDATE finge... " />
-            <marker date="1477551522539" expanded="true" signature="1999:2029" ph="insert into fp... " />
+            <marker date="1477672886434" expanded="true" signature="737:773" ph="select * fro... song" />
+            <marker date="1477672886434" expanded="true" signature="905:940" ph="insert into song... " />
+            <marker date="1477672886434" expanded="true" signature="998:1033" ph="select * fro... song" />
+            <marker date="1477672886434" expanded="true" signature="1329:1385" ph="select * fro... fp" />
+            <marker date="1477672886434" expanded="true" signature="1450:1506" ph="select * fro... fp" />
+            <marker date="1477672886434" expanded="true" signature="1741:1801" ph="UPDATE finge... " />
+            <marker date="1477672886434" expanded="true" signature="2000:2030" ph="insert into fp... " />
+            <marker date="1477672886434" expanded="true" signature="2716:2738" ph="select * fro... fp" />
+            <marker date="1477672886434" expanded="true" signature="2905:2958" ph="select * fro... fp" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>

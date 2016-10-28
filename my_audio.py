@@ -19,7 +19,7 @@ class voice():
             print 'the type of filepath must be string'
             return False
         p1 = re.compile('\.wav')
-        if p1.findall(filepath) == None:
+        if p1.findall(filepath) is None:
             print 'the suffix of file must be .wav'
             return False
         try:
@@ -63,10 +63,11 @@ class voice():
             print 'data error to fft!'
             return False
 
+
 if __name__ == '__main__':
     p = voice()
 
-    p.loaddata('C:\data\music\\audio\\audio\\ (1).wav')
+    p.loaddata('1.wav')
     p.fft()
     for i in p.hashlist:
         print i

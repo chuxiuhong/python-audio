@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component name="dataSourceStorage">
   <data-source name="MySQL - fingerprint@localhost" uuid="21d35448-0f78-4b00-a539-fe2ee623d1c1">
-    <database-info product="MySQL" version="5.6.32" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+    <database-info product="MySQL" version="5.7.13-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 )">
       <extra-name-characters>#@</extra-name-characters>
       <identifier-quote-string>`</identifier-quote-string>
     </database-info>
@@ -10,50 +10,39 @@
       <schema id="1" name="fingerprint">
         <visible>1</visible>
       </schema>
-      <schema id="2" name="bookdb"/>
-      <schema id="3" name="haha"/>
-      <schema id="4" name="information_schema"/>
-      <schema id="5" name="kdd"/>
-      <schema id="6" name="mysql"/>
-      <schema id="7" name="performance_schema"/>
-      <schema id="8" name="test"/>
-      <schema id="9" name="test1"/>
-      <schema id="10" name="villa"/>
-      <schema id="11" name="coder_market"/>
-      <table id="12" parent="1" name="fp"/>
-      <table id="13" parent="1" name="song"/>
-      <table id="14" parent="1" name="song_finger"/>
-      <column id="15" parent="12" name="fingerprint">
-        <mandatory>1</mandatory>
+      <schema id="2" name="information_schema"/>
+      <schema id="3" name="mysql"/>
+      <schema id="4" name="performance_schema"/>
+      <schema id="5" name="coder_market"/>
+      <schema id="6" name="coder"/>
+      <schema id="7" name="sakila"/>
+      <schema id="8" name="sys"/>
+      <schema id="9" name="world"/>
+      <table id="10" parent="1" name="fp"/>
+      <table id="11" parent="1" name="song"/>
+      <table id="12" parent="1" name="song_finger"/>
+      <column id="13" parent="10" name="fingerprint">
         <data-type>int(15)|0</data-type>
-        <default-expression>&apos;0&apos;</default-expression>
       </column>
-      <column id="16" parent="12" name="id">
-        <mandatory>1</mandatory>
-        <data-type>text|0</data-type>
+      <column id="14" parent="10" name="id">
+        <data-type>longtext|0</data-type>
       </column>
-      <key id="17" parent="12" name="PRIMARY">
-        <columns>fingerprint</columns>
-        <primary>1</primary>
-      </key>
-      <column id="18" parent="13" name="id">
+      <column id="15" parent="11" name="id">
         <mandatory>1</mandatory>
-        <data-type>int(10) unsigned|0</data-type>
+        <data-type>int(10)|0</data-type>
         <sequence-identity>1</sequence-identity>
       </column>
-      <column id="19" parent="13" name="name">
-        <mandatory>1</mandatory>
+      <column id="16" parent="11" name="name">
         <data-type>varchar(50)|0</data-type>
-        <default-expression>&apos;&apos;</default-expression>
       </column>
-      <key id="20" parent="13" name="PRIMARY">
+      <key id="17" parent="11" name="PRIMARY">
         <columns>id</columns>
         <primary>1</primary>
       </key>
-      <column id="21" parent="14" name="id">
+      <column id="18" parent="12" name="id">
         <data-type>int(11)|0</data-type>
       </column>
-      <column id="22" parent="14" name="song_finger">
+      <column id="19" parent="12" name="finger">
         <data-type>text|0</data-type>
       </column>
     </database-model>
