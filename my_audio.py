@@ -88,13 +88,10 @@ class voice():
                 time_2 += 2
             elif i[0] == 3:
                 time_3 += 1
-            elif i[0] == 4:
-                time_4 += 1
         print 'time_0', time_0
         print 'time_1', time_1
         print 'time_2', time_2
         print 'time_3', time_3
-        print 'time_4', time_4
 
 
 if __name__ == '__main__':
