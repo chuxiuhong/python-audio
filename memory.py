@@ -17,7 +17,7 @@ class memory():
 
     @staticmethod
     def compare(a, b):
-        if a[1] > b[1]:
+        if a[0] > b[0]:
             return True
         else:
             return False
@@ -54,7 +54,7 @@ class memory():
         :param match_fp: 库中指纹
         :return:最大相似值 int
         '''
-        if len(search_fp) >= len(match_fp):
+        if len(search_fp) > len(match_fp):
             return 0
         max_similar = 0
         search_fp_len = len(search_fp)
@@ -62,13 +62,13 @@ class memory():
         for i in range(match_fp_len - search_fp_len):
             temp = 0
             for j in range(search_fp_len):
-                if match_fp[i+j] == search_fp[j]:
+                if match_fp[i + j] == search_fp[j]:
                     temp += 1
             if temp > max_similar:
                 max_similar = temp
         return max_similar
 
-    def search(self,path):
+    def search(self, path):
         v = my_audio.voice()
         v.loaddata(path)
         v.fft()
@@ -81,12 +81,16 @@ class memory():
         cur = conn.cursor()
         cur.execute("select * from fingerprint.musicdata")
         result = cur.fetchall()
+        compare_res = []
         for i in result:
-            memory.fp_compare(v.high_point[100:300],eval(i[1]))
+            compare_res.append((memory.fp_compare(v.high_point, eval(i[1])), i[0]))
+        compare_res.sort(cmp=memory.compare)
+        print compare_res
         cur.close()
         conn.close()
 
+
 if __name__ == '__main__':
     sss = memory('localhost', 3306, 'root', '', 'fingerprint')
-    sss.addsong('1.wav')
-    sss.search('1.wav')
+    sss.addsong('C:\data\music\\audio\\audio\\ (4).wav')
+    sss.search('C:\data\music\\audio\\audio\\ (3).wav')

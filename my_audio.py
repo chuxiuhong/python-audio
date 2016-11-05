@@ -28,7 +28,7 @@ class voice():
             self.nchannels, self.sampwidth, self.framerate, self.nframes = params[:4]
             str_data = f.readframes(self.nframes)
             self.wave_data = np.fromstring(str_data, dtype=np.short)
-            self.wave_data.shape = -1,self.sampwidth
+            self.wave_data.shape = -1, self.sampwidth
             self.wave_data = self.wave_data.T
             f.close()
             self.name = os.path.basename(filepath)  # 记录下文件名
@@ -44,7 +44,7 @@ class voice():
         :param b: 二元组b
         :return: a[0]>b[0]布尔型
         '''
-        if a[0]>b[0]:
+        if a[0] > b[0]:
             return True
         else:
             return False
@@ -62,8 +62,9 @@ class voice():
             blocks.append(np.abs(np.fft.fft(self.wave_data[0][i:i + blocks_size])))  #
         for i in xrange(len(blocks)):
             self.high_point.append(
-                (np.argmax(blocks[i][40:100]), np.argmax(blocks[i][100:160])+100, np.argmax((blocks[i][160:220]))+160,
-                 np.argmax(blocks[i][220:280])+220, np.argmax(blocks[i][280:340])+280))
+                (np.argmax(blocks[i][40:80]) + 40,
+                 np.argmax((blocks[i][80:120])) + 80,
+                 np.argmax(blocks[i][120:160]) + 120, np.argmax(blocks[i][160:200]) + 160))
             temp_list = []
             for j in range(len(self.high_point[-1])):
                 temp_list.append((blocks[i][self.high_point[-1][j]], j))
@@ -72,19 +73,33 @@ class voice():
                 temp_list[j] = temp_list[j][1]
             self.high_point[-1] = temp_list
             # high_point存储着fft之后在每个频段的峰值点，存储对象为元组
-        self.timelist = []
-        for i in xrange(len(blocks)):
-            self.timelist.append(blocks_size * i * 1.0 / self.framerate)  # 对每个指纹存储在音频中的时间位置
-        '''
-        except:
-            print 'data error to fft!'
-            return False
-            '''
+        time_0 = 0
+        time_1 = 0
+        time_2 = 0
+        time_3 = 0
+        time_4 = 0
+
+        for i in self.high_point:
+            if i[0] == 0:
+                time_0 += 1
+            elif i[0] == 1:
+                time_1 += 1
+            elif i[0] == 2:
+                time_2 += 2
+            elif i[0] == 3:
+                time_3 += 1
+            elif i[0] == 4:
+                time_4 += 1
+        print 'time_0', time_0
+        print 'time_1', time_1
+        print 'time_2', time_2
+        print 'time_3', time_3
+        print 'time_4', time_4
 
 
 if __name__ == '__main__':
     p = voice()
 
-    p.loaddata('1.wav')
+    p.loaddata('C:\data\music\\audio\\audio\\ (1).wav')
     p.fft()
     print p.name
