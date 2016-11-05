@@ -5,7 +5,7 @@ import pyaudio
 
 
 class recode():
-    def recode(self, CHUNK=4096, FORMAT=pyaudio.paInt16, CHANNELS=2, RATE=44100, RECORD_SECONDS=20,
+    def recode(self, CHUNK=4096, FORMAT=pyaudio.paInt16, CHANNELS=2, RATE=44100, RECORD_SECONDS=200,
                WAVE_OUTPUT_FILENAME="record.wav"):
         p = pyaudio.PyAudio()
         stream = p.open(format=FORMAT,
@@ -26,3 +26,6 @@ class recode():
         wf.setframerate(RATE)
         wf.writeframes(b''.join(frames))
         wf.close()
+if __name__=='__main__':
+    a = recode()
+    a.recode(RECORD_SECONDS=212)

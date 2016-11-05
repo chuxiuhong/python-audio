@@ -73,6 +73,7 @@ class voice():
                 temp_list[j] = temp_list[j][1]
             self.high_point[-1] = temp_list
             # high_point存储着fft之后在每个频段的峰值点，存储对象为元组
+            '''
         time_0 = 0
         time_1 = 0
         time_2 = 0
@@ -92,7 +93,7 @@ class voice():
         print 'time_1', time_1
         print 'time_2', time_2
         print 'time_3', time_3
-
+        '''
 
 if __name__ == '__main__':
     p = voice()

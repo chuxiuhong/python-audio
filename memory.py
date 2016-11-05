@@ -92,5 +92,5 @@ class memory():
 
 if __name__ == '__main__':
     sss = memory('localhost', 3306, 'root', '', 'fingerprint')
-    sss.addsong('C:\data\music\\audio\\audio\\ (4).wav')
-    sss.search('C:\data\music\\audio\\audio\\ (3).wav')
+    sss.addsong('nverqing.wav')
+    sss.search('beiyiwangdeshiguang.wav')
