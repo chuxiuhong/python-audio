@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component name="dataSourceStorage">
   <data-source name="MySQL - fingerprint@localhost" uuid="21d35448-0f78-4b00-a539-fe2ee623d1c1">
-    <database-info product="MySQL" version="5.7.13-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 )">
+    <database-info product="MySQL" version="5.6.32" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
       <extra-name-characters>#@</extra-name-characters>
       <identifier-quote-string>`</identifier-quote-string>
     </database-info>
@@ -14,36 +14,19 @@
       <schema id="3" name="mysql"/>
       <schema id="4" name="performance_schema"/>
       <schema id="5" name="coder_market"/>
-      <schema id="6" name="coder"/>
-      <schema id="7" name="sakila"/>
-      <schema id="8" name="sys"/>
-      <schema id="9" name="world"/>
-      <table id="10" parent="1" name="fp"/>
-      <table id="11" parent="1" name="song"/>
-      <table id="12" parent="1" name="song_finger"/>
-      <column id="13" parent="10" name="fingerprint">
-        <data-type>int(15)|0</data-type>
-      </column>
-      <column id="14" parent="10" name="id">
-        <data-type>longtext|0</data-type>
-      </column>
-      <column id="15" parent="11" name="id">
+      <schema id="6" name="bookdb"/>
+      <schema id="7" name="haha"/>
+      <schema id="8" name="kdd"/>
+      <schema id="9" name="test"/>
+      <schema id="10" name="test1"/>
+      <schema id="11" name="villa"/>
+      <table id="12" parent="1" name="musicdata"/>
+      <column id="13" parent="12" name="song_name">
         <mandatory>1</mandatory>
-        <data-type>int(10)|0</data-type>
-        <sequence-identity>1</sequence-identity>
+        <data-type>varchar(100)|0</data-type>
       </column>
-      <column id="16" parent="11" name="name">
-        <data-type>varchar(50)|0</data-type>
-      </column>
-      <key id="17" parent="11" name="PRIMARY">
-        <columns>id</columns>
-        <primary>1</primary>
-      </key>
-      <column id="18" parent="12" name="id">
-        <data-type>int(11)|0</data-type>
-      </column>
-      <column id="19" parent="12" name="finger">
-        <data-type>text|0</data-type>
+      <column id="14" parent="12" name="fp">
+        <data-type>longtext|0</data-type>
       </column>
     </database-model>
   </data-source>
