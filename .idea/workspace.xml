@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="505acf67-54aa-487f-a322-a4c79f0c9d47" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/record_project/recordaudio.py" />
+    <list default="true" id="505acf67-54aa-487f-a322-a4c79f0c9d47" name="Default" comment="写完了老师给的录音作业&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/record_project/record.pcm" afterPath="$PROJECT_DIR$/record_project/record.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/record_project/record.wav" afterPath="$PROJECT_DIR$/record_project/record.wav" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/python-audio.iml" afterPath="$PROJECT_DIR$/.idea/python-audio.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="python-audio.iws" />
@@ -20,7 +24,7 @@
     <SUITE FILE_PATH="coverage/python-audio$memory.coverage" NAME="memory Coverage Results" MODIFIED="1477550714068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python-audio$pyaudio.coverage" NAME="pyaudio Coverage Results" MODIFIED="1475113581685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python-audio$LCS.coverage" NAME="LCS Coverage Results" MODIFIED="1476083467029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
-    <SUITE FILE_PATH="coverage/python-audio$recordaudio.coverage" NAME="recordaudio Coverage Results" MODIFIED="1478253777284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/record_project" />
+    <SUITE FILE_PATH="coverage/python-audio$recordaudio.coverage" NAME="recordaudio Coverage Results" MODIFIED="1478324777081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/record_project" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -42,8 +46,8 @@
       <file leaf-file-name="my_audio.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_audio.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1632">
-              <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+            <state relative-caret-position="816">
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
               <folding>
                 <element signature="e#14#23#0" expanded="true" />
               </folding>
@@ -54,28 +58,20 @@
       <file leaf-file-name="memory.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/memory.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1397">
-              <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+            <state relative-caret-position="793">
+              <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
               <folding>
                 <element signature="e#16#25#0" expanded="true" />
-                <marker date="1477551522539" expanded="true" signature="737:773" ph="select * fro... song" />
-                <marker date="1477551522539" expanded="true" signature="905:940" ph="insert into song... " />
-                <marker date="1477551522539" expanded="true" signature="998:1033" ph="select * fro... song" />
-                <marker date="1477551522539" expanded="true" signature="1123:1165" ph="insert into song_finger... " />
-                <marker date="1477551522539" expanded="true" signature="1328:1384" ph="select * fro... fp" />
-                <marker date="1477551522539" expanded="true" signature="1449:1505" ph="select * fro... fp" />
-                <marker date="1477551522539" expanded="true" signature="1740:1800" ph="UPDATE finge... " />
-                <marker date="1477551522539" expanded="true" signature="1999:2029" ph="insert into fp... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="recordaudio.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="recordaudio.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/record_project/recordaudio.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="961">
-              <caret line="57" column="36" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
+            <state relative-caret-position="768">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
               <folding>
                 <element signature="e#108#117#0" expanded="true" />
               </folding>
@@ -83,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="record.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="record.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/record.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+            <state relative-caret-position="697">
+              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
               <folding>
                 <element signature="e#13#24#0" expanded="true" />
               </folding>
@@ -114,9 +110,9 @@
         <option value="$PROJECT_DIR$/../LCS.py" />
         <option value="dbtable:/9d5afa52/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.fp" />
         <option value="$PROJECT_DIR$/pyaudio.py" />
-        <option value="$PROJECT_DIR$/record.py" />
         <option value="$PROJECT_DIR$/memory.py" />
         <option value="$PROJECT_DIR$/record_project/recordaudio.py" />
+        <option value="$PROJECT_DIR$/record.py" />
       </list>
     </option>
   </component>
@@ -157,17 +153,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane />
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../pythonproject" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.data.extractors.current" value="CSV-Groovy.csv.groovy" />
@@ -551,21 +547,27 @@
       <option name="project" value="LOCAL" />
       <updated>1477551589257</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="写完了老师给的录音作业&#10;">
+      <created>1478253830537</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1478253830537</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-12" y="-12" width="3024" height="1954" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36568213" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24179207" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="100" width="2800" height="1730" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52391" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32771644" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771644" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32435596" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3486345" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3486345" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893983" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -573,6 +575,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="100" width="2800" height="1730" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -615,7 +618,8 @@
     <MESSAGE value="完成了增加歌曲&#10;&#10;&#10;" />
     <MESSAGE value="改变了memory，下面需要加比对，得注意要修改fft中那段&#10;&#10;&#10;" />
     <MESSAGE value="重新整理了代码，避免了命名冲突问题。需要写匹配问题，如何用倒排索引的数据表来匹配？&#10;&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="重新整理了代码，避免了命名冲突问题。需要写匹配问题，如何用倒排索引的数据表来匹配？&#10;&#10;" />
+    <MESSAGE value="写完了老师给的录音作业&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="写完了老师给的录音作业&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -628,14 +632,6 @@
           <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
-            <marker date="1477551522539" expanded="true" signature="737:773" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="905:940" ph="insert into song... " />
-            <marker date="1477551522539" expanded="true" signature="998:1033" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="1123:1165" ph="insert into song_finger... " />
-            <marker date="1477551522539" expanded="true" signature="1328:1384" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1449:1505" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1740:1800" ph="UPDATE finge... " />
-            <marker date="1477551522539" expanded="true" signature="1999:2029" ph="insert into fp... " />
           </folding>
         </state>
       </provider>
@@ -666,14 +662,6 @@
           <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
-            <marker date="1477551522539" expanded="true" signature="737:773" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="905:940" ph="insert into song... " />
-            <marker date="1477551522539" expanded="true" signature="998:1033" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="1123:1165" ph="insert into song_finger... " />
-            <marker date="1477551522539" expanded="true" signature="1328:1384" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1449:1505" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1740:1800" ph="UPDATE finge... " />
-            <marker date="1477551522539" expanded="true" signature="1999:2029" ph="insert into fp... " />
           </folding>
         </state>
       </provider>
@@ -705,14 +693,6 @@
           <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
-            <marker date="1477551522539" expanded="true" signature="737:773" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="905:940" ph="insert into song... " />
-            <marker date="1477551522539" expanded="true" signature="998:1033" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="1123:1165" ph="insert into song_finger... " />
-            <marker date="1477551522539" expanded="true" signature="1328:1384" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1449:1505" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1740:1800" ph="UPDATE finge... " />
-            <marker date="1477551522539" expanded="true" signature="1999:2029" ph="insert into fp... " />
           </folding>
         </state>
       </provider>
@@ -744,14 +724,6 @@
           <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
-            <marker date="1477551522539" expanded="true" signature="737:773" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="905:940" ph="insert into song... " />
-            <marker date="1477551522539" expanded="true" signature="998:1033" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="1123:1165" ph="insert into song_finger... " />
-            <marker date="1477551522539" expanded="true" signature="1328:1384" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1449:1505" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1740:1800" ph="UPDATE finge... " />
-            <marker date="1477551522539" expanded="true" signature="1999:2029" ph="insert into fp... " />
           </folding>
         </state>
       </provider>
@@ -783,14 +755,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
-            <marker date="1477551522539" expanded="true" signature="737:773" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="905:940" ph="insert into song... " />
-            <marker date="1477551522539" expanded="true" signature="998:1033" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="1123:1165" ph="insert into song_finger... " />
-            <marker date="1477551522539" expanded="true" signature="1328:1384" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1449:1505" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1740:1800" ph="UPDATE finge... " />
-            <marker date="1477551522539" expanded="true" signature="1999:2029" ph="insert into fp... " />
           </folding>
         </state>
       </provider>
@@ -823,14 +787,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
-            <marker date="1477551522539" expanded="true" signature="737:773" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="905:940" ph="insert into song... " />
-            <marker date="1477551522539" expanded="true" signature="998:1033" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="1123:1165" ph="insert into song_finger... " />
-            <marker date="1477551522539" expanded="true" signature="1328:1384" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1449:1505" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1740:1800" ph="UPDATE finge... " />
-            <marker date="1477551522539" expanded="true" signature="1999:2029" ph="insert into fp... " />
           </folding>
         </state>
       </provider>
@@ -863,14 +819,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
-            <marker date="1477551522539" expanded="true" signature="737:773" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="905:940" ph="insert into song... " />
-            <marker date="1477551522539" expanded="true" signature="998:1033" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="1123:1165" ph="insert into song_finger... " />
-            <marker date="1477551522539" expanded="true" signature="1328:1384" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1449:1505" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1740:1800" ph="UPDATE finge... " />
-            <marker date="1477551522539" expanded="true" signature="1999:2029" ph="insert into fp... " />
           </folding>
         </state>
       </provider>
@@ -903,14 +851,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
-            <marker date="1477551522539" expanded="true" signature="737:773" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="905:940" ph="insert into song... " />
-            <marker date="1477551522539" expanded="true" signature="998:1033" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="1123:1165" ph="insert into song_finger... " />
-            <marker date="1477551522539" expanded="true" signature="1328:1384" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1449:1505" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1740:1800" ph="UPDATE finge... " />
-            <marker date="1477551522539" expanded="true" signature="1999:2029" ph="insert into fp... " />
           </folding>
         </state>
       </provider>
@@ -933,14 +873,6 @@
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
-            <marker date="1477551522539" expanded="true" signature="737:773" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="905:940" ph="insert into song... " />
-            <marker date="1477551522539" expanded="true" signature="998:1033" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="1123:1165" ph="insert into song_finger... " />
-            <marker date="1477551522539" expanded="true" signature="1328:1384" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1449:1505" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1740:1800" ph="UPDATE finge... " />
-            <marker date="1477551522539" expanded="true" signature="1999:2029" ph="insert into fp... " />
           </folding>
         </state>
       </provider>
@@ -1010,10 +942,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/PyQt4/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/record_project/recordaudio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="e#108#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="793">
+          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding>
+            <element signature="e#16#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/my_audio.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+        <state relative-caret-position="816">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
           <folding>
             <element signature="e#14#23#0" expanded="true" />
           </folding>
@@ -1022,46 +981,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/record.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        <state relative-caret-position="697">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
           <folding>
             <element signature="e#13#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/memory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1397">
-          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#25#0" expanded="true" />
-            <marker date="1477551522539" expanded="true" signature="737:773" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="905:940" ph="insert into song... " />
-            <marker date="1477551522539" expanded="true" signature="998:1033" ph="select * fro... song" />
-            <marker date="1477551522539" expanded="true" signature="1123:1165" ph="insert into song_finger... " />
-            <marker date="1477551522539" expanded="true" signature="1328:1384" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1449:1505" ph="select * fro... fp" />
-            <marker date="1477551522539" expanded="true" signature="1740:1800" ph="UPDATE finge... " />
-            <marker date="1477551522539" expanded="true" signature="1999:2029" ph="insert into fp... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/PyQt4/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/record_project/recordaudio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="961">
-          <caret line="57" column="36" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
-          <folding>
-            <element signature="e#108#117#0" expanded="true" />
           </folding>
         </state>
       </provider>
