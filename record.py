@@ -1,12 +1,12 @@
-#coding=utf8
+# coding=utf8
 import wave
 
 import pyaudio
 
 
 class recode():
-    def recode(self, CHUNK=4096, FORMAT=pyaudio.paInt16, CHANNELS=2, RATE=44100, RECORD_SECONDS=200,
-               WAVE_OUTPUT_FILENAME="record.wav"):
+    def recode(self, CHUNK=44100, FORMAT=pyaudio.paInt16, CHANNELS=2, RATE=44100, RECORD_SECONDS=200,
+               WAVE_OUTPUT_FILENAME="record_zixishi.wav"):
         p = pyaudio.PyAudio()
         stream = p.open(format=FORMAT,
                         channels=CHANNELS,
@@ -26,6 +26,8 @@ class recode():
         wf.setframerate(RATE)
         wf.writeframes(b''.join(frames))
         wf.close()
-if __name__=='__main__':
+
+
+if __name__ == '__main__':
     a = recode()
-    a.recode(RECORD_SECONDS=212)
+    a.recode(RECORD_SECONDS=20)

@@ -2,7 +2,7 @@
 import os
 import re
 import wave
-
+import matplotlib.pyplot as plt
 import numpy as np
 
 
@@ -36,20 +36,7 @@ class voice():
         except:
             print 'File Error!'
 
-    @staticmethod
-    def help_cmp(a, b):
-        '''
-
-        :param a: 二元组a
-        :param b: 二元组b
-        :return: a[0]>b[0]布尔型
-        '''
-        if a[0] > b[0]:
-            return True
-        else:
-            return False
-
-    def fft(self, frames=50):
+    def fft(self, frames=40):
         '''
         :param frames: frames是指定每秒钟分块数
         :return:
@@ -60,44 +47,49 @@ class voice():
         blocks_num = self.nframes / blocks_size  # 将音频分块的数量
         for i in xrange(blocks_num - 1):
             blocks.append(np.abs(np.fft.fft(self.wave_data[0][i:i + blocks_size])))  #
-        for i in xrange(len(blocks)):
             self.high_point.append(
-                (np.argmax(blocks[i][40:80]) + 40,
-                 np.argmax((blocks[i][80:120])) + 80,
-                 np.argmax(blocks[i][120:160]) + 120, np.argmax(blocks[i][160:200]) + 160))
+                (np.argmax(blocks[i][10:20]) + 10,
+                 np.argmax(blocks[i][20:30]) + 20,
+                 np.argmax(blocks[i][30:40]) + 30,
+                 np.argmax(blocks[i][40:50]) + 40,
+                 np.argmax(blocks[i][50:60]) + 50,
+                 np.argmax(blocks[i][60:70]) + 60,
+                 np.argmax(blocks[i][70:80]) + 70,
+                 np.argmax(blocks[i][80:90]) + 80,
+                 np.argmax(blocks[i][90:100]) + 90,
+                 np.argmax(blocks[i][100:110]) + 100,
+                 np.argmax(blocks[i][110:120]) + 110,
+                 np.argmax(blocks[i][120:130]) + 120,
+                 np.argmax(blocks[i][130:140]) + 130,
+                 np.argmax(blocks[i][140:150]) + 140,
+                 np.argmax(blocks[i][150:160]) + 150,
+                 np.argmax(blocks[i][160:170]) + 160,
+                 np.argmax(blocks[i][170:180]) + 170,
+                 np.argmax(blocks[i][180:190]) + 180,
+                 np.argmax(blocks[i][190:200]) + 190,
+                 np.argmax(blocks[i][200:210]) + 200,
+                 np.argmax(blocks[i][210:300]) + 210)
+            )
+        # print len(self.high_point)
             temp_list = []
             for j in range(len(self.high_point[-1])):
                 temp_list.append((blocks[i][self.high_point[-1][j]], j))
-            temp_list = sorted(temp_list)
+            temp_list = sorted(temp_list,key=lambda x:x[0])
             for j in range(len(temp_list)):
                 temp_list[j] = temp_list[j][1]
             self.high_point[-1] = temp_list
             # high_point存储着fft之后在每个频段的峰值点，存储对象为元组
-            '''
-        time_0 = 0
-        time_1 = 0
-        time_2 = 0
-        time_3 = 0
-        time_4 = 0
-
-        for i in self.high_point:
-            if i[0] == 0:
-                time_0 += 1
-            elif i[0] == 1:
-                time_1 += 1
-            elif i[0] == 2:
-                time_2 += 2
-            elif i[0] == 3:
-                time_3 += 1
-        print 'time_0', time_0
-        print 'time_1', time_1
-        print 'time_2', time_2
-        print 'time_3', time_3
-        '''
+        # res = []
+        # tmp = None
+        # for m in self.high_point:
+        #     if m != tmp:
+        #         tmp=m
+        #         res.append(m)
+        # self.high_point = res
 
 if __name__ == '__main__':
     p = voice()
 
-    p.loaddata('C:\data\music\\audio\\audio\\ (1).wav')
+    p.loaddata('record_beiyiwang.wav')
     p.fft()
     print p.name

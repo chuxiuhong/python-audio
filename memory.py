@@ -15,13 +15,6 @@ class memory():
         self.passwd = passwd
         self.db = db
 
-    @staticmethod
-    def compare(a, b):
-        if a[0] > b[0]:
-            return True
-        else:
-            return False
-
     def addsong(self, path):
         if type(path) != str:
             print 'path need string'
@@ -46,8 +39,7 @@ class memory():
         cur.close()
         conn.close()
 
-    @staticmethod
-    def fp_compare(search_fp, match_fp):
+    def fp_compare(self,search_fp, match_fp):
         '''
 
         :param search_fp: 查询指纹
@@ -72,6 +64,7 @@ class memory():
         v = my_audio.voice()
         v.loaddata(path)
         v.fft()
+        #print v.high_point
         try:
             conn = MySQLdb.connect(host=self.host, port=self.port, user=self.user, passwd=self.passwd, db=self.db,
                                    charset='utf8')
@@ -83,14 +76,18 @@ class memory():
         result = cur.fetchall()
         compare_res = []
         for i in result:
-            compare_res.append((memory.fp_compare(v.high_point, eval(i[1])), i[0]))
-        compare_res.sort(cmp=memory.compare)
-        print compare_res
+            compare_res.append((self.fp_compare(v.high_point[:1000], eval(i[1])), i[0]))
+        compare_res.sort(reverse=True)
         cur.close()
         conn.close()
+        print compare_res
 
 
 if __name__ == '__main__':
     sss = memory('localhost', 3306, 'root', '', 'fingerprint')
+    sss.addsong('taiyangzhaochangshengqi.wav')
+    sss.addsong('beiyiwangdeshiguang.wav')
+    sss.addsong('xiaozezhenger.wav')
     sss.addsong('nverqing.wav')
-    sss.search('beiyiwangdeshiguang.wav')
+    sss.addsong('C:\data\music\\audio\\audio\\ (8).wav')
+    sss.search('C:\data\music\\audio\\audio\\ (3).wav')

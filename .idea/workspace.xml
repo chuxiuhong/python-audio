@@ -19,12 +19,12 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/python-audio$pyaudiotest.coverage" NAME="pyaudiotest Coverage Results" MODIFIED="1475040873240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python-audio$memory.coverage" NAME="memory Coverage Results" MODIFIED="1478362351346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python-audio$memory.coverage" NAME="memory Coverage Results" MODIFIED="1478480201839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python-audio$pyaudio.coverage" NAME="pyaudio Coverage Results" MODIFIED="1475113581685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python-audio$LCS.coverage" NAME="LCS Coverage Results" MODIFIED="1476083467029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
     <SUITE FILE_PATH="coverage/python-audio$recordaudio.coverage" NAME="recordaudio Coverage Results" MODIFIED="1478324777081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/record_project" />
-    <SUITE FILE_PATH="coverage/python-audio$my_audio.coverage" NAME="my_audio Coverage Results" MODIFIED="1478347613380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python-audio$record.coverage" NAME="record Coverage Results" MODIFIED="1478362502035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python-audio$my_audio.coverage" NAME="my_audio Coverage Results" MODIFIED="1478442738522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python-audio$record.coverage" NAME="record Coverage Results" MODIFIED="1478432107222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -56,8 +56,8 @@
       <file leaf-file-name="my_audio.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_audio.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3840">
-              <caret line="95" column="11" selection-start-line="95" selection-start-column="11" selection-end-line="95" selection-end-column="11" />
+            <state relative-caret-position="4032">
+              <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
               <folding>
                 <element signature="e#14#23#0" expanded="true" />
               </folding>
@@ -68,30 +68,15 @@
       <file leaf-file-name="memory.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/memory.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+            <state relative-caret-position="816">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
               <folding>
                 <element signature="e#16#25#0" expanded="true" />
-                <marker date="1478362351321" expanded="true" signature="863:921" ph="select * fro... WHERE" />
-                <marker date="1478362351321" expanded="true" signature="1122:1163" ph="insert into fingerprint.musicdata... " />
-                <marker date="1478362351321" expanded="true" signature="1122:1173" ph="insert into fingerprint.musicdata... " />
-                <marker date="1478362351321" expanded="true" signature="2311:2346" ph="select * fro... musicdata" />
+                <marker date="1478480201819" expanded="true" signature="734:792" ph="select * fro... WHERE" />
+                <marker date="1478480201819" expanded="true" signature="993:1034" ph="insert into fingerprint.musicdata... " />
+                <marker date="1478480201819" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
+                <marker date="1478480201819" expanded="true" signature="2197:2232" ph="select * fro... musicdata" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fingerprint.musicdata" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/9d5afa52/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.musicdata">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -99,9 +84,11 @@
       <file leaf-file-name="record.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/record.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="289">
+              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+              <folding>
+                <element signature="e#14#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -129,9 +116,10 @@
         <option value="dbtable:/9d5afa52/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.fp" />
         <option value="$PROJECT_DIR$/pyaudio.py" />
         <option value="$PROJECT_DIR$/record_project/recordaudio.py" />
+        <option value="$PROJECT_DIR$/record.py" />
+        <option value="dbtable:/9d5afa52/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.musicdata" />
         <option value="$PROJECT_DIR$/my_audio.py" />
         <option value="$PROJECT_DIR$/memory.py" />
-        <option value="$PROJECT_DIR$/record.py" />
       </list>
     </option>
   </component>
@@ -144,7 +132,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-12" />
     <option name="y" value="-12" />
-    <option name="width" value="3014" />
+    <option name="width" value="3024" />
     <option name="height" value="1954" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -172,7 +160,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -194,17 +181,18 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../coder-market" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.data.extractors.current" value="CSV-Groovy.csv.groovy" />
   </component>
-  <component name="RunManager" selected="Python.record">
+  <component name="RunManager" selected="Python.memory">
     <configuration default="false" name="memory" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -512,9 +500,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.record" />
-        <item index="1" class="java.lang.String" itemvalue="Python.memory" />
-        <item index="2" class="java.lang.String" itemvalue="Python.my_audio" />
+        <item index="0" class="java.lang.String" itemvalue="Python.memory" />
+        <item index="1" class="java.lang.String" itemvalue="Python.my_audio" />
+        <item index="2" class="java.lang.String" itemvalue="Python.record" />
         <item index="3" class="java.lang.String" itemvalue="Python.recordaudio" />
         <item index="4" class="java.lang.String" itemvalue="Python.LCS" />
       </list>
@@ -611,32 +599,39 @@
       <option name="project" value="LOCAL" />
       <updated>1478348115239</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="录了几首歌">
+      <created>1478362790474</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1478362790474</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-12" y="-12" width="3014" height="1954" extended-state="0" />
+    <frame x="-12" y="-12" width="3024" height="1954" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24468085" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24692203" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21310914" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15834473" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32771644" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3242301" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3486345" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887855" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995286" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="100" width="2800" height="1730" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3486345" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39918652" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -678,7 +673,8 @@
     <MESSAGE value="写完了老师给的录音作业&#10;" />
     <MESSAGE value="完成了指纹重构，数据库写入&#10;" />
     <MESSAGE value="等待录歌测试了&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="等待录歌测试了&#10;" />
+    <MESSAGE value="录了几首歌" />
+    <option name="LAST_COMMIT_MESSAGE" value="录了几首歌" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -689,7 +685,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1152">
           <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding />
+          <folding>
+            <element signature="e#14#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -709,10 +707,10 @@
           <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
-            <marker date="1478362351321" expanded="true" signature="863:921" ph="select * fro... WHERE" />
-            <marker date="1478362351321" expanded="true" signature="1122:1163" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478362351321" expanded="true" signature="1122:1173" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478362351321" expanded="true" signature="2311:2346" ph="select * fro... musicdata" />
+            <marker date="1478480201819" expanded="true" signature="734:792" ph="select * fro... WHERE" />
+            <marker date="1478480201819" expanded="true" signature="993:1034" ph="insert into fingerprint.musicdata... " />
+            <marker date="1478480201819" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
+            <marker date="1478480201819" expanded="true" signature="2197:2232" ph="select * fro... musicdata" />
           </folding>
         </state>
       </provider>
@@ -721,7 +719,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1152">
           <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding />
+          <folding>
+            <element signature="e#14#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -742,10 +742,10 @@
           <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
-            <marker date="1478362351321" expanded="true" signature="863:921" ph="select * fro... WHERE" />
-            <marker date="1478362351321" expanded="true" signature="1122:1163" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478362351321" expanded="true" signature="1122:1173" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478362351321" expanded="true" signature="2311:2346" ph="select * fro... musicdata" />
+            <marker date="1478480201819" expanded="true" signature="734:792" ph="select * fro... WHERE" />
+            <marker date="1478480201819" expanded="true" signature="993:1034" ph="insert into fingerprint.musicdata... " />
+            <marker date="1478480201819" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
+            <marker date="1478480201819" expanded="true" signature="2197:2232" ph="select * fro... musicdata" />
           </folding>
         </state>
       </provider>
@@ -754,7 +754,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1152">
           <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding />
+          <folding>
+            <element signature="e#14#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -775,10 +777,10 @@
           <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
-            <marker date="1478362351321" expanded="true" signature="863:921" ph="select * fro... WHERE" />
-            <marker date="1478362351321" expanded="true" signature="1122:1163" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478362351321" expanded="true" signature="1122:1173" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478362351321" expanded="true" signature="2311:2346" ph="select * fro... musicdata" />
+            <marker date="1478480201819" expanded="true" signature="734:792" ph="select * fro... WHERE" />
+            <marker date="1478480201819" expanded="true" signature="993:1034" ph="insert into fingerprint.musicdata... " />
+            <marker date="1478480201819" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
+            <marker date="1478480201819" expanded="true" signature="2197:2232" ph="select * fro... musicdata" />
           </folding>
         </state>
       </provider>
@@ -787,7 +789,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1248">
           <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding />
+          <folding>
+            <element signature="e#14#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -808,10 +812,10 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
-            <marker date="1478362351321" expanded="true" signature="863:921" ph="select * fro... WHERE" />
-            <marker date="1478362351321" expanded="true" signature="1122:1163" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478362351321" expanded="true" signature="1122:1173" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478362351321" expanded="true" signature="2311:2346" ph="select * fro... musicdata" />
+            <marker date="1478480201819" expanded="true" signature="734:792" ph="select * fro... WHERE" />
+            <marker date="1478480201819" expanded="true" signature="993:1034" ph="insert into fingerprint.musicdata... " />
+            <marker date="1478480201819" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
+            <marker date="1478480201819" expanded="true" signature="2197:2232" ph="select * fro... musicdata" />
           </folding>
         </state>
       </provider>
@@ -821,7 +825,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="768">
           <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding />
+          <folding>
+            <element signature="e#14#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -842,10 +848,10 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
-            <marker date="1478362351321" expanded="true" signature="863:921" ph="select * fro... WHERE" />
-            <marker date="1478362351321" expanded="true" signature="1122:1163" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478362351321" expanded="true" signature="1122:1173" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478362351321" expanded="true" signature="2311:2346" ph="select * fro... musicdata" />
+            <marker date="1478480201819" expanded="true" signature="734:792" ph="select * fro... WHERE" />
+            <marker date="1478480201819" expanded="true" signature="993:1034" ph="insert into fingerprint.musicdata... " />
+            <marker date="1478480201819" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
+            <marker date="1478480201819" expanded="true" signature="2197:2232" ph="select * fro... musicdata" />
           </folding>
         </state>
       </provider>
@@ -855,7 +861,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="768">
           <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding />
+          <folding>
+            <element signature="e#14#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -876,10 +884,10 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
-            <marker date="1478362351321" expanded="true" signature="863:921" ph="select * fro... WHERE" />
-            <marker date="1478362351321" expanded="true" signature="1122:1163" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478362351321" expanded="true" signature="1122:1173" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478362351321" expanded="true" signature="2311:2346" ph="select * fro... musicdata" />
+            <marker date="1478480201819" expanded="true" signature="734:792" ph="select * fro... WHERE" />
+            <marker date="1478480201819" expanded="true" signature="993:1034" ph="insert into fingerprint.musicdata... " />
+            <marker date="1478480201819" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
+            <marker date="1478480201819" expanded="true" signature="2197:2232" ph="select * fro... musicdata" />
           </folding>
         </state>
       </provider>
@@ -889,7 +897,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="768">
           <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding />
+          <folding>
+            <element signature="e#14#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -910,10 +920,10 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
-            <marker date="1478362351321" expanded="true" signature="863:921" ph="select * fro... WHERE" />
-            <marker date="1478362351321" expanded="true" signature="1122:1163" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478362351321" expanded="true" signature="1122:1173" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478362351321" expanded="true" signature="2311:2346" ph="select * fro... musicdata" />
+            <marker date="1478480201819" expanded="true" signature="734:792" ph="select * fro... WHERE" />
+            <marker date="1478480201819" expanded="true" signature="993:1034" ph="insert into fingerprint.musicdata... " />
+            <marker date="1478480201819" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
+            <marker date="1478480201819" expanded="true" signature="2197:2232" ph="select * fro... musicdata" />
           </folding>
         </state>
       </provider>
@@ -923,7 +933,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1152">
           <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding />
+          <folding>
+            <element signature="e#14#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -934,10 +946,10 @@
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
-            <marker date="1478362351321" expanded="true" signature="863:921" ph="select * fro... WHERE" />
-            <marker date="1478362351321" expanded="true" signature="1122:1163" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478362351321" expanded="true" signature="1122:1173" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478362351321" expanded="true" signature="2311:2346" ph="select * fro... musicdata" />
+            <marker date="1478480201819" expanded="true" signature="734:792" ph="select * fro... WHERE" />
+            <marker date="1478480201819" expanded="true" signature="993:1034" ph="insert into fingerprint.musicdata... " />
+            <marker date="1478480201819" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
+            <marker date="1478480201819" expanded="true" signature="2197:2232" ph="select * fro... musicdata" />
           </folding>
         </state>
       </provider>
@@ -946,7 +958,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="768">
           <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding />
+          <folding>
+            <element signature="e#14#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -970,38 +984,38 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/9d5afa52/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/9d5afa52/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/9d5afa52/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.fp">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1019,48 +1033,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="dbDummy://dbtable:/9d5afa52/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.musicdata">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/my_audio.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3840">
-          <caret line="95" column="11" selection-start-line="95" selection-start-column="11" selection-end-line="95" selection-end-column="11" />
+        <state relative-caret-position="4032">
+          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
           <folding>
             <element signature="e#14#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/9d5afa52/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.musicdata">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/memory.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+        <state relative-caret-position="816">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
-            <marker date="1478362351321" expanded="true" signature="863:921" ph="select * fro... WHERE" />
-            <marker date="1478362351321" expanded="true" signature="1122:1163" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478362351321" expanded="true" signature="1122:1173" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478362351321" expanded="true" signature="2311:2346" ph="select * fro... musicdata" />
+            <marker date="1478480201819" expanded="true" signature="734:792" ph="select * fro... WHERE" />
+            <marker date="1478480201819" expanded="true" signature="993:1034" ph="insert into fingerprint.musicdata... " />
+            <marker date="1478480201819" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
+            <marker date="1478480201819" expanded="true" signature="2197:2232" ph="select * fro... musicdata" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/record.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="289">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding>
+            <element signature="e#14#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
