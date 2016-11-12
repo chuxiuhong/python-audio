@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="505acf67-54aa-487f-a322-a4c79f0c9d47" name="Default" comment="">
+    <list default="true" id="505acf67-54aa-487f-a322-a4c79f0c9d47" name="Default" comment="发现可能是录音的时候声卡有问题，准备排查">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/record_project/record.pcm" afterPath="$PROJECT_DIR$/record_project/record.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/record_project/record.wav" afterPath="$PROJECT_DIR$/record_project/record.wav" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/python-audio.iml" afterPath="$PROJECT_DIR$/.idea/python-audio.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/memory.py" afterPath="$PROJECT_DIR$/memory.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_audio.py" afterPath="$PROJECT_DIR$/my_audio.py" />
@@ -19,12 +26,14 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/python-audio$pyaudiotest.coverage" NAME="pyaudiotest Coverage Results" MODIFIED="1475040873240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python-audio$memory.coverage" NAME="memory Coverage Results" MODIFIED="1478480201839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python-audio$memory.coverage" NAME="memory Coverage Results" MODIFIED="1478968686101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python-audio$pyaudio.coverage" NAME="pyaudio Coverage Results" MODIFIED="1475113581685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python-audio$LCS.coverage" NAME="LCS Coverage Results" MODIFIED="1476083467029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
-    <SUITE FILE_PATH="coverage/python-audio$recordaudio.coverage" NAME="recordaudio Coverage Results" MODIFIED="1478324777081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/record_project" />
-    <SUITE FILE_PATH="coverage/python-audio$my_audio.coverage" NAME="my_audio Coverage Results" MODIFIED="1478442738522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python-audio$record.coverage" NAME="record Coverage Results" MODIFIED="1478432107222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python-audio$recordaudio.coverage" NAME="recordaudio Coverage Results" MODIFIED="1478867639594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/record_project" />
+    <SUITE FILE_PATH="coverage/python-audio$frequency_counter2.coverage" NAME="frequency_counter2 Coverage Results" MODIFIED="1478950725384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../pythonproject" />
+    <SUITE FILE_PATH="coverage/python-audio$my_audio.coverage" NAME="my_audio Coverage Results" MODIFIED="1478967142456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python-audio$record.coverage" NAME="record Coverage Results" MODIFIED="1478966405625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python-audio$signal.coverage" NAME="signal Coverage Results" MODIFIED="1478959804275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../pythonproject" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -41,10 +50,6 @@
         <option name="myItemId" />
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
       </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - fingerprint@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -56,8 +61,8 @@
       <file leaf-file-name="my_audio.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_audio.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4032">
-              <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+            <state relative-caret-position="438">
+              <caret line="66" column="39" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
               <folding>
                 <element signature="e#14#23#0" expanded="true" />
               </folding>
@@ -65,30 +70,79 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="memory.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="memory.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/memory.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            <state relative-caret-position="689">
+              <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
               <folding>
                 <element signature="e#16#25#0" expanded="true" />
-                <marker date="1478480201819" expanded="true" signature="734:792" ph="select * fro... WHERE" />
-                <marker date="1478480201819" expanded="true" signature="993:1034" ph="insert into fingerprint.musicdata... " />
-                <marker date="1478480201819" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
-                <marker date="1478480201819" expanded="true" signature="2197:2232" ph="select * fro... musicdata" />
+                <marker date="1478968686092" expanded="true" signature="734:792" ph="select * fro... musicdata" />
+                <marker date="1478968686092" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
+                <marker date="1478968686092" expanded="true" signature="2340:2375" ph="SELECT * FRO... musicdata" />
+                <marker date="1478968686092" expanded="true" signature="2346:2375" ph="select * fro... musicdata" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="record.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="record.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/record.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+            <state relative-caret-position="-8">
+              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
               <folding>
                 <element signature="e#14#25#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signal.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pythonproject/signal.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-384">
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+              <folding>
+                <element signature="e#25#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="frequency_counter2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pythonproject/frequency_counter2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+              <folding>
+                <element signature="e#15#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fingerprint.musicdata" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/740d974e/09822182-3adb-44b3-804f-3935b1a6803a/fingerprint.musicdata">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recordaudio.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/record_project/recordaudio.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,8 +170,10 @@
         <option value="dbtable:/9d5afa52/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.fp" />
         <option value="$PROJECT_DIR$/pyaudio.py" />
         <option value="$PROJECT_DIR$/record_project/recordaudio.py" />
-        <option value="$PROJECT_DIR$/record.py" />
         <option value="dbtable:/9d5afa52/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.musicdata" />
+        <option value="dbtable:/740d974e/09822182-3adb-44b3-804f-3935b1a6803a/fingerprint.musicdata" />
+        <option value="$PROJECT_DIR$/../pythonproject/frequency_counter2.py" />
+        <option value="$PROJECT_DIR$/record.py" />
         <option value="$PROJECT_DIR$/my_audio.py" />
         <option value="$PROJECT_DIR$/memory.py" />
       </list>
@@ -130,10 +186,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="3024" />
-    <option name="height" value="1954" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -160,7 +216,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -182,12 +237,13 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.data.extractors.current" value="CSV-Groovy.csv.groovy" />
@@ -207,42 +263,6 @@
       <module name="python-audio" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/memory.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="LCS" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python-audio" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../LCS.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="recordaudio" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/record_project" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python-audio" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/record_project/recordaudio.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -279,6 +299,42 @@
       <module name="python-audio" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/record.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="signal" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../pythonproject" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-audio" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../pythonproject/signal.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="frequency_counter2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../pythonproject" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-audio" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../pythonproject/frequency_counter2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -493,18 +549,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.memory" />
-      <item index="1" class="java.lang.String" itemvalue="Python.LCS" />
-      <item index="2" class="java.lang.String" itemvalue="Python.recordaudio" />
-      <item index="3" class="java.lang.String" itemvalue="Python.my_audio" />
-      <item index="4" class="java.lang.String" itemvalue="Python.record" />
+      <item index="1" class="java.lang.String" itemvalue="Python.my_audio" />
+      <item index="2" class="java.lang.String" itemvalue="Python.record" />
+      <item index="3" class="java.lang.String" itemvalue="Python.signal" />
+      <item index="4" class="java.lang.String" itemvalue="Python.frequency_counter2" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.memory" />
         <item index="1" class="java.lang.String" itemvalue="Python.my_audio" />
         <item index="2" class="java.lang.String" itemvalue="Python.record" />
-        <item index="3" class="java.lang.String" itemvalue="Python.recordaudio" />
-        <item index="4" class="java.lang.String" itemvalue="Python.LCS" />
+        <item index="3" class="java.lang.String" itemvalue="Python.signal" />
+        <item index="4" class="java.lang.String" itemvalue="Python.frequency_counter2" />
       </list>
     </recent_temporary>
   </component>
@@ -606,33 +662,63 @@
       <option name="project" value="LOCAL" />
       <updated>1478362790474</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="发现可能是录音的时候声卡有问题，准备排查">
+      <created>1478525322195</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1478525322195</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-12" y="-12" width="3024" height="1954" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24692203" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26233906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15834473" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32771644" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3242301" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15769644" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33069083" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3227633" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34767836" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887855" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39862543" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="100" width="2800" height="1730" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3486345" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39918652" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="100" width="2800" height="1730" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33069083" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3227633" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35166094" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26432434" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15769644" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.398641" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -674,92 +760,16 @@
     <MESSAGE value="完成了指纹重构，数据库写入&#10;" />
     <MESSAGE value="等待录歌测试了&#10;" />
     <MESSAGE value="录了几首歌" />
-    <option name="LAST_COMMIT_MESSAGE" value="录了几首歌" />
+    <MESSAGE value="发现可能是录音的时候声卡有问题，准备排查" />
+    <option name="LAST_COMMIT_MESSAGE" value="发现可能是录音的时候声卡有问题，准备排查" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="9" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/record.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding>
-            <element signature="e#14#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_audio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2880">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/memory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2496">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#25#0" expanded="true" />
-            <marker date="1478480201819" expanded="true" signature="734:792" ph="select * fro... WHERE" />
-            <marker date="1478480201819" expanded="true" signature="993:1034" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478480201819" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478480201819" expanded="true" signature="2197:2232" ph="select * fro... musicdata" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/record.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding>
-            <element signature="e#14#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../LCS.py" />
-    <entry file="file://$PROJECT_DIR$/my_audio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2880">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/memory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2496">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#25#0" expanded="true" />
-            <marker date="1478480201819" expanded="true" signature="734:792" ph="select * fro... WHERE" />
-            <marker date="1478480201819" expanded="true" signature="993:1034" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478480201819" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478480201819" expanded="true" signature="2197:2232" ph="select * fro... musicdata" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/record.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding>
-            <element signature="e#14#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../LCS.py" />
     <entry file="file://$PROJECT_DIR$/my_audio.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -777,10 +787,10 @@
           <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
-            <marker date="1478480201819" expanded="true" signature="734:792" ph="select * fro... WHERE" />
-            <marker date="1478480201819" expanded="true" signature="993:1034" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478480201819" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478480201819" expanded="true" signature="2197:2232" ph="select * fro... musicdata" />
+            <marker date="1478968686092" expanded="true" signature="734:792" ph="select * fro... musicdata" />
+            <marker date="1478968686092" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
+            <marker date="1478968686092" expanded="true" signature="2340:2375" ph="SELECT * FRO... musicdata" />
+            <marker date="1478968686092" expanded="true" signature="2346:2375" ph="select * fro... musicdata" />
           </folding>
         </state>
       </provider>
@@ -812,10 +822,10 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
-            <marker date="1478480201819" expanded="true" signature="734:792" ph="select * fro... WHERE" />
-            <marker date="1478480201819" expanded="true" signature="993:1034" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478480201819" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478480201819" expanded="true" signature="2197:2232" ph="select * fro... musicdata" />
+            <marker date="1478968686092" expanded="true" signature="734:792" ph="select * fro... musicdata" />
+            <marker date="1478968686092" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
+            <marker date="1478968686092" expanded="true" signature="2340:2375" ph="SELECT * FRO... musicdata" />
+            <marker date="1478968686092" expanded="true" signature="2346:2375" ph="select * fro... musicdata" />
           </folding>
         </state>
       </provider>
@@ -848,10 +858,10 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
-            <marker date="1478480201819" expanded="true" signature="734:792" ph="select * fro... WHERE" />
-            <marker date="1478480201819" expanded="true" signature="993:1034" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478480201819" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478480201819" expanded="true" signature="2197:2232" ph="select * fro... musicdata" />
+            <marker date="1478968686092" expanded="true" signature="734:792" ph="select * fro... musicdata" />
+            <marker date="1478968686092" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
+            <marker date="1478968686092" expanded="true" signature="2340:2375" ph="SELECT * FRO... musicdata" />
+            <marker date="1478968686092" expanded="true" signature="2346:2375" ph="select * fro... musicdata" />
           </folding>
         </state>
       </provider>
@@ -884,10 +894,10 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
-            <marker date="1478480201819" expanded="true" signature="734:792" ph="select * fro... WHERE" />
-            <marker date="1478480201819" expanded="true" signature="993:1034" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478480201819" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478480201819" expanded="true" signature="2197:2232" ph="select * fro... musicdata" />
+            <marker date="1478968686092" expanded="true" signature="734:792" ph="select * fro... musicdata" />
+            <marker date="1478968686092" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
+            <marker date="1478968686092" expanded="true" signature="2340:2375" ph="SELECT * FRO... musicdata" />
+            <marker date="1478968686092" expanded="true" signature="2346:2375" ph="select * fro... musicdata" />
           </folding>
         </state>
       </provider>
@@ -920,10 +930,10 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
-            <marker date="1478480201819" expanded="true" signature="734:792" ph="select * fro... WHERE" />
-            <marker date="1478480201819" expanded="true" signature="993:1034" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478480201819" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478480201819" expanded="true" signature="2197:2232" ph="select * fro... musicdata" />
+            <marker date="1478968686092" expanded="true" signature="734:792" ph="select * fro... musicdata" />
+            <marker date="1478968686092" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
+            <marker date="1478968686092" expanded="true" signature="2340:2375" ph="SELECT * FRO... musicdata" />
+            <marker date="1478968686092" expanded="true" signature="2346:2375" ph="select * fro... musicdata" />
           </folding>
         </state>
       </provider>
@@ -946,10 +956,10 @@
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
-            <marker date="1478480201819" expanded="true" signature="734:792" ph="select * fro... WHERE" />
-            <marker date="1478480201819" expanded="true" signature="993:1034" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478480201819" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478480201819" expanded="true" signature="2197:2232" ph="select * fro... musicdata" />
+            <marker date="1478968686092" expanded="true" signature="734:792" ph="select * fro... musicdata" />
+            <marker date="1478968686092" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
+            <marker date="1478968686092" expanded="true" signature="2340:2375" ph="SELECT * FRO... musicdata" />
+            <marker date="1478968686092" expanded="true" signature="2346:2375" ph="select * fro... musicdata" />
           </folding>
         </state>
       </provider>
@@ -976,50 +986,23 @@
     <entry file="dbDummy://dbtable:/ebf30e51/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song" />
     <entry file="file://$PROJECT_DIR$/../LCS.py" />
     <entry file="file://$PROJECT_DIR$/SELECT_t___FROM_fingerprint_fp_t.txt" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/21d35448-0f78-4b00-a539-fe2ee623d1c1/console.sql">
+    <entry file="dbDummy://dbtable:/9d5afa52/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger" />
+    <entry file="dbDummy://dbtable:/9d5afa52/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song" />
+    <entry file="dbDummy://dbtable:/9d5afa52/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.fp" />
+    <entry file="file://C:/Python27/Lib/site-packages/PyQt4/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/9d5afa52/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song_finger">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/9d5afa52/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.song">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/9d5afa52/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.fp">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/PyQt4/__init__.py">
+    <entry file="dbDummy://dbtable:/9d5afa52/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.musicdata" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/21d35448-0f78-4b00-a539-fe2ee623d1c1/console.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/86ae92df-955b-4d93-a2f7-684433665e79/console.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/eeebd69d-bf6f-4cc9-af95-c581283df5a3/console.sql" />
+    <entry file="dbDummy://dbtable:/9d5afa52/eeebd69d-bf6f-4cc9-af95-c581283df5a3/fingerprint.musicdata" />
+    <entry file="dbDummy://dbtable:/740d974e/eeebd69d-bf6f-4cc9-af95-c581283df5a3/fingerprint.musicdata" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/09822182-3adb-44b3-804f-3935b1a6803a/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1028,15 +1011,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/record_project/recordaudio.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1537">
-          <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+        <state relative-caret-position="432">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/9d5afa52/21d35448-0f78-4b00-a539-fe2ee623d1c1/fingerprint.musicdata">
+    <entry file="file://$PROJECT_DIR$/../pythonproject/signal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-384">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="e#25#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pythonproject/frequency_counter2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding>
+            <element signature="e#15#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_audio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="66" column="39" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
+          <folding>
+            <element signature="e#14#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/record.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding>
+            <element signature="e#14#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/740d974e/09822182-3adb-44b3-804f-3935b1a6803a/fingerprint.musicdata">
       <provider editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -1045,36 +1070,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_audio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4032">
-          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/memory.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        <state relative-caret-position="689">
+          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
-            <marker date="1478480201819" expanded="true" signature="734:792" ph="select * fro... WHERE" />
-            <marker date="1478480201819" expanded="true" signature="993:1034" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478480201819" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478480201819" expanded="true" signature="2197:2232" ph="select * fro... musicdata" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/record.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-          <folding>
-            <element signature="e#14#25#0" expanded="true" />
+            <marker date="1478968686092" expanded="true" signature="734:792" ph="select * fro... musicdata" />
+            <marker date="1478968686092" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
+            <marker date="1478968686092" expanded="true" signature="2340:2375" ph="SELECT * FRO... musicdata" />
+            <marker date="1478968686092" expanded="true" signature="2346:2375" ph="select * fro... musicdata" />
           </folding>
         </state>
       </provider>

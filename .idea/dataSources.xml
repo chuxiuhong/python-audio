@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="528790272">
-    <data-source source="LOCAL" name="MySQL - fingerprint@localhost" uuid="21d35448-0f78-4b00-a539-fe2ee623d1c1">
+  <component name="DataSourceManagerImpl" format="xml" hash="2226397117">
+    <data-source source="LOCAL" name="MySQL - fingerprint@localhost" uuid="09822182-3adb-44b3-804f-3935b1a6803a">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>

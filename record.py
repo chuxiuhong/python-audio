@@ -6,7 +6,7 @@ import pyaudio
 
 class recode():
     def recode(self, CHUNK=44100, FORMAT=pyaudio.paInt16, CHANNELS=2, RATE=44100, RECORD_SECONDS=200,
-               WAVE_OUTPUT_FILENAME="record_zixishi.wav"):
+               WAVE_OUTPUT_FILENAME="record.wav"):
         p = pyaudio.PyAudio()
         stream = p.open(format=FORMAT,
                         channels=CHANNELS,
@@ -24,10 +24,10 @@ class recode():
         wf.setnchannels(CHANNELS)
         wf.setsampwidth(p.get_sample_size(FORMAT))
         wf.setframerate(RATE)
-        wf.writeframes(b''.join(frames))
+        wf.writeframes(''.join(frames))
         wf.close()
 
 
 if __name__ == '__main__':
     a = recode()
-    a.recode(RECORD_SECONDS=20)
+    a.recode(RECORD_SECONDS=30, WAVE_OUTPUT_FILENAME='record_pianai.wav')
