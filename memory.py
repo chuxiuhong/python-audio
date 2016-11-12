@@ -90,6 +90,29 @@ class memory():
         print compare_res
         return compare_res
 
+    def search_and_play(self, path):
+        v = my_audio.voice()
+        v.loaddata(path)
+        v.fft()
+        #print v.high_point
+        try:
+            conn = MySQLdb.connect(host=self.host, port=self.port, user=self.user, passwd=self.passwd, db=self.db,
+                                   charset='utf8')
+        except:
+            print 'DataBase error'
+            return None
+        cur = conn.cursor()
+        cur.execute("SELECT * FROM fingerprint.musicdata")
+        result = cur.fetchall()
+        compare_res = []
+        for i in result:
+            compare_res.append((self.fp_compare(v.high_point[:-1], eval(i[1])), i[0]))
+        compare_res.sort(reverse=True)
+        cur.close()
+        conn.close()
+        print compare_res
+        v.play(compare_res[0][1])
+        return compare_res
 
 if __name__ == '__main__':
     sss = memory('localhost', 3306, 'root', 'root', 'fingerprint')
@@ -103,4 +126,4 @@ if __name__ == '__main__':
     sss.addsong('pianai.wav')
 
 
-    sss.search('record_end_of_world.wav')
+    sss.search_and_play('record_pianai.wav')

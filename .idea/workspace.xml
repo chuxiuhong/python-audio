@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="505acf67-54aa-487f-a322-a4c79f0c9d47" name="Default" comment="发现可能是录音的时候声卡有问题，准备排查">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/record_project/record.pcm" afterPath="$PROJECT_DIR$/record_project/record.pcm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/record_project/record.wav" afterPath="$PROJECT_DIR$/record_project/record.wav" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/python-audio.iml" afterPath="$PROJECT_DIR$/.idea/python-audio.iml" />
+    <list default="true" id="505acf67-54aa-487f-a322-a4c79f0c9d47" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/memory.py" afterPath="$PROJECT_DIR$/memory.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_audio.py" afterPath="$PROJECT_DIR$/my_audio.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/record.py" afterPath="$PROJECT_DIR$/record.py" />
     </list>
     <ignored path="python-audio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,12 +18,12 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/python-audio$pyaudiotest.coverage" NAME="pyaudiotest Coverage Results" MODIFIED="1475040873240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python-audio$memory.coverage" NAME="memory Coverage Results" MODIFIED="1478968686101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python-audio$memory.coverage" NAME="memory Coverage Results" MODIFIED="1478969194783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python-audio$pyaudio.coverage" NAME="pyaudio Coverage Results" MODIFIED="1475113581685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python-audio$LCS.coverage" NAME="LCS Coverage Results" MODIFIED="1476083467029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
     <SUITE FILE_PATH="coverage/python-audio$recordaudio.coverage" NAME="recordaudio Coverage Results" MODIFIED="1478867639594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/record_project" />
     <SUITE FILE_PATH="coverage/python-audio$frequency_counter2.coverage" NAME="frequency_counter2 Coverage Results" MODIFIED="1478950725384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../pythonproject" />
-    <SUITE FILE_PATH="coverage/python-audio$my_audio.coverage" NAME="my_audio Coverage Results" MODIFIED="1478967142456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python-audio$my_audio.coverage" NAME="my_audio Coverage Results" MODIFIED="1478969128090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python-audio$record.coverage" NAME="record Coverage Results" MODIFIED="1478966405625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python-audio$signal.coverage" NAME="signal Coverage Results" MODIFIED="1478959804275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../pythonproject" />
   </component>
@@ -61,8 +53,8 @@
       <file leaf-file-name="my_audio.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_audio.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="66" column="39" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
+            <state relative-caret-position="736">
+              <caret line="95" column="16" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="16" />
               <folding>
                 <element signature="e#14#23#0" expanded="true" />
               </folding>
@@ -73,14 +65,15 @@
       <file leaf-file-name="memory.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/memory.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="689">
-              <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+            <state relative-caret-position="353">
+              <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
               <folding>
                 <element signature="e#16#25#0" expanded="true" />
-                <marker date="1478968686092" expanded="true" signature="734:792" ph="select * fro... musicdata" />
-                <marker date="1478968686092" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
-                <marker date="1478968686092" expanded="true" signature="2340:2375" ph="SELECT * FRO... musicdata" />
-                <marker date="1478968686092" expanded="true" signature="2346:2375" ph="select * fro... musicdata" />
+                <marker date="1478969226841" expanded="true" signature="734:792" ph="select * fro... musicdata" />
+                <marker date="1478969226841" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
+                <marker date="1478969226841" expanded="true" signature="2340:2375" ph="SELECT * FRO... musicdata" />
+                <marker date="1478969226841" expanded="true" signature="2346:2375" ph="select * fro... musicdata" />
+                <marker date="1478969226841" expanded="true" signature="3119:3154" ph="SELECT * FRO... musicdata" />
               </folding>
             </state>
           </provider>
@@ -669,7 +662,14 @@
       <option name="project" value="LOCAL" />
       <updated>1478525322195</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="完成了整个的项目核心">
+      <created>1478968730357</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1478968730357</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -761,7 +761,8 @@
     <MESSAGE value="等待录歌测试了&#10;" />
     <MESSAGE value="录了几首歌" />
     <MESSAGE value="发现可能是录音的时候声卡有问题，准备排查" />
-    <option name="LAST_COMMIT_MESSAGE" value="发现可能是录音的时候声卡有问题，准备排查" />
+    <MESSAGE value="完成了整个的项目核心" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成了整个的项目核心" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -787,10 +788,11 @@
           <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
-            <marker date="1478968686092" expanded="true" signature="734:792" ph="select * fro... musicdata" />
-            <marker date="1478968686092" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478968686092" expanded="true" signature="2340:2375" ph="SELECT * FRO... musicdata" />
-            <marker date="1478968686092" expanded="true" signature="2346:2375" ph="select * fro... musicdata" />
+            <marker date="1478969226841" expanded="true" signature="734:792" ph="select * fro... musicdata" />
+            <marker date="1478969226841" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
+            <marker date="1478969226841" expanded="true" signature="2340:2375" ph="SELECT * FRO... musicdata" />
+            <marker date="1478969226841" expanded="true" signature="2346:2375" ph="select * fro... musicdata" />
+            <marker date="1478969226841" expanded="true" signature="3119:3154" ph="SELECT * FRO... musicdata" />
           </folding>
         </state>
       </provider>
@@ -822,10 +824,11 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
-            <marker date="1478968686092" expanded="true" signature="734:792" ph="select * fro... musicdata" />
-            <marker date="1478968686092" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478968686092" expanded="true" signature="2340:2375" ph="SELECT * FRO... musicdata" />
-            <marker date="1478968686092" expanded="true" signature="2346:2375" ph="select * fro... musicdata" />
+            <marker date="1478969226841" expanded="true" signature="734:792" ph="select * fro... musicdata" />
+            <marker date="1478969226841" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
+            <marker date="1478969226841" expanded="true" signature="2340:2375" ph="SELECT * FRO... musicdata" />
+            <marker date="1478969226841" expanded="true" signature="2346:2375" ph="select * fro... musicdata" />
+            <marker date="1478969226841" expanded="true" signature="3119:3154" ph="SELECT * FRO... musicdata" />
           </folding>
         </state>
       </provider>
@@ -858,10 +861,11 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
-            <marker date="1478968686092" expanded="true" signature="734:792" ph="select * fro... musicdata" />
-            <marker date="1478968686092" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478968686092" expanded="true" signature="2340:2375" ph="SELECT * FRO... musicdata" />
-            <marker date="1478968686092" expanded="true" signature="2346:2375" ph="select * fro... musicdata" />
+            <marker date="1478969226841" expanded="true" signature="734:792" ph="select * fro... musicdata" />
+            <marker date="1478969226841" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
+            <marker date="1478969226841" expanded="true" signature="2340:2375" ph="SELECT * FRO... musicdata" />
+            <marker date="1478969226841" expanded="true" signature="2346:2375" ph="select * fro... musicdata" />
+            <marker date="1478969226841" expanded="true" signature="3119:3154" ph="SELECT * FRO... musicdata" />
           </folding>
         </state>
       </provider>
@@ -894,10 +898,11 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
-            <marker date="1478968686092" expanded="true" signature="734:792" ph="select * fro... musicdata" />
-            <marker date="1478968686092" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478968686092" expanded="true" signature="2340:2375" ph="SELECT * FRO... musicdata" />
-            <marker date="1478968686092" expanded="true" signature="2346:2375" ph="select * fro... musicdata" />
+            <marker date="1478969226841" expanded="true" signature="734:792" ph="select * fro... musicdata" />
+            <marker date="1478969226841" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
+            <marker date="1478969226841" expanded="true" signature="2340:2375" ph="SELECT * FRO... musicdata" />
+            <marker date="1478969226841" expanded="true" signature="2346:2375" ph="select * fro... musicdata" />
+            <marker date="1478969226841" expanded="true" signature="3119:3154" ph="SELECT * FRO... musicdata" />
           </folding>
         </state>
       </provider>
@@ -930,10 +935,11 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
-            <marker date="1478968686092" expanded="true" signature="734:792" ph="select * fro... musicdata" />
-            <marker date="1478968686092" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478968686092" expanded="true" signature="2340:2375" ph="SELECT * FRO... musicdata" />
-            <marker date="1478968686092" expanded="true" signature="2346:2375" ph="select * fro... musicdata" />
+            <marker date="1478969226841" expanded="true" signature="734:792" ph="select * fro... musicdata" />
+            <marker date="1478969226841" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
+            <marker date="1478969226841" expanded="true" signature="2340:2375" ph="SELECT * FRO... musicdata" />
+            <marker date="1478969226841" expanded="true" signature="2346:2375" ph="select * fro... musicdata" />
+            <marker date="1478969226841" expanded="true" signature="3119:3154" ph="SELECT * FRO... musicdata" />
           </folding>
         </state>
       </provider>
@@ -956,10 +962,11 @@
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
-            <marker date="1478968686092" expanded="true" signature="734:792" ph="select * fro... musicdata" />
-            <marker date="1478968686092" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478968686092" expanded="true" signature="2340:2375" ph="SELECT * FRO... musicdata" />
-            <marker date="1478968686092" expanded="true" signature="2346:2375" ph="select * fro... musicdata" />
+            <marker date="1478969226841" expanded="true" signature="734:792" ph="select * fro... musicdata" />
+            <marker date="1478969226841" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
+            <marker date="1478969226841" expanded="true" signature="2340:2375" ph="SELECT * FRO... musicdata" />
+            <marker date="1478969226841" expanded="true" signature="2346:2375" ph="select * fro... musicdata" />
+            <marker date="1478969226841" expanded="true" signature="3119:3154" ph="SELECT * FRO... musicdata" />
           </folding>
         </state>
       </provider>
@@ -1027,26 +1034,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../pythonproject/frequency_counter2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-          <folding>
-            <element signature="e#15#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_audio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="66" column="39" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
-          <folding>
-            <element signature="e#14#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/record.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
@@ -1070,16 +1057,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../pythonproject/frequency_counter2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding>
+            <element signature="e#15#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_audio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="95" column="16" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="16" />
+          <folding>
+            <element signature="e#14#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/memory.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+        <state relative-caret-position="353">
+          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
-            <marker date="1478968686092" expanded="true" signature="734:792" ph="select * fro... musicdata" />
-            <marker date="1478968686092" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
-            <marker date="1478968686092" expanded="true" signature="2340:2375" ph="SELECT * FRO... musicdata" />
-            <marker date="1478968686092" expanded="true" signature="2346:2375" ph="select * fro... musicdata" />
+            <marker date="1478969226841" expanded="true" signature="734:792" ph="select * fro... musicdata" />
+            <marker date="1478969226841" expanded="true" signature="993:1044" ph="insert into fingerprint.musicdata... " />
+            <marker date="1478969226841" expanded="true" signature="2340:2375" ph="SELECT * FRO... musicdata" />
+            <marker date="1478969226841" expanded="true" signature="2346:2375" ph="select * fro... musicdata" />
+            <marker date="1478969226841" expanded="true" signature="3119:3154" ph="SELECT * FRO... musicdata" />
           </folding>
         </state>
       </provider>
