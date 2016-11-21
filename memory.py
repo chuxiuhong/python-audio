@@ -17,8 +17,7 @@ class memory():
 
     def addsong(self, path):
         if type(path) != str:
-            print 'path need string'
-            return None
+            raise TypeError,'path need string'
         basename = os.path.basename(path)
         try:
             conn = MySQLdb.connect(host=self.host, port=self.port, user=self.user, passwd=self.passwd, db=self.db,
@@ -39,13 +38,13 @@ class memory():
         cur.close()
         conn.close()
 
-    def tuple_compare(self,a,b):
+    def tuple_compare(self, a, b):
         diff = 0
         for i in range(len(a)):
             diff += abs(a[i] - b[i])
         return diff
 
-    def fp_compare(self,search_fp, match_fp):
+    def fp_compare(self, search_fp, match_fp):
         '''
 
         :param search_fp: 查询指纹
@@ -66,18 +65,16 @@ class memory():
                 max_similar = temp
         return max_similar
 
-
     def search(self, path):
         v = my_audio.voice()
         v.loaddata(path)
         v.fft()
-        #print v.high_point
+        # print v.high_point
         try:
             conn = MySQLdb.connect(host=self.host, port=self.port, user=self.user, passwd=self.passwd, db=self.db,
                                    charset='utf8')
         except:
-            print 'DataBase error'
-            return None
+            raise IOError,'DataBase error'
         cur = conn.cursor()
         cur.execute("SELECT * FROM fingerprint.musicdata")
         result = cur.fetchall()
@@ -94,7 +91,6 @@ class memory():
         v = my_audio.voice()
         v.loaddata(path)
         v.fft()
-        #print v.high_point
         try:
             conn = MySQLdb.connect(host=self.host, port=self.port, user=self.user, passwd=self.passwd, db=self.db,
                                    charset='utf8')
@@ -114,8 +110,9 @@ class memory():
         v.play(compare_res[0][1])
         return compare_res
 
+
 if __name__ == '__main__':
-    sss = memory('localhost', 3306, 'root', 'root', 'fingerprint')
+    sss = memory('localhost', 3306, 'root', '', 'fingerprint')
     sss.addsong('taiyangzhaochangshengqi.wav')
     sss.addsong('beiyiwangdeshiguang.wav')
     sss.addsong('xiaozezhenger.wav')
@@ -124,6 +121,5 @@ if __name__ == '__main__':
     sss.addsong('windmill.wav')
     sss.addsong('end_of_world.wav')
     sss.addsong('pianai.wav')
-
 
     sss.search_and_play('record_pianai.wav')
