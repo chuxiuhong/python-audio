@@ -30,4 +30,4 @@ class recode():
 
 if __name__ == '__main__':
     a = recode()
-    a.recode(RECORD_SECONDS=10, WAVE_OUTPUT_FILENAME='record.wav')
+    a.recode(RECORD_SECONDS=20, WAVE_OUTPUT_FILENAME='record.wav')

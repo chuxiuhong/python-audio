@@ -17,10 +17,10 @@ class voice():
         具体有几通道，看self.nchannels
         '''
         if type(filepath) != str:
-            raise TypeError,'the type of filepath must be string'
+            raise TypeError, 'the type of filepath must be string'
         p1 = re.compile('\.wav')
         if p1.findall(filepath) is None:
-            raise IOError,'the suffix of file must be .wav'
+            raise IOError, 'the suffix of file must be .wav'
         try:
             f = wave.open(filepath, 'rb')
             params = f.getparams()
@@ -33,10 +33,11 @@ class voice():
             self.name = os.path.basename(filepath)  # 记录下文件名
             return True
         except:
-            print 'File Error!'
+            raise IOError, 'File Error'
 
     def fft(self, frames=40):
         '''
+        整体指纹提取的核心方法，将整个音频分块后分别对每块进行傅里叶变换，之后分子带抽取高能量点的下标
         :param frames: frames是指定每秒钟分块数
         :return:
         '''
@@ -54,42 +55,31 @@ class voice():
                                     np.argmax(fft_blocks[-1][120:180]) + 120,
                                     # np.argmax(fft_blocks[-1][180:300]) + 180,
                                     ))
-            '''
-            temp_list = []
-            for j in range(len(self.high_point[-1])):
-                temp_list.append((fft_blocks[-1][self.high_point[-1][j]], j))
-            temp_list = sorted(temp_list, key=lambda x: x[0])
-            for j in range(len(temp_list)):
-                temp_list[j] = temp_list[j][1]
-            #print temp_list
-            self.high_point[-1] = temp_list
-            '''
 
     def play(self, filepath):
+        '''
+        音频播放方法
+        :param filepath:文件路径
+        :return:
+        '''
         chunk = 1024
-
         wf = wave.open(filepath, 'rb')
-
         p = pyaudio.PyAudio()
-
         # 打开声音输出流
         stream = p.open(format=p.get_format_from_width(wf.getsampwidth()),
                         channels=wf.getnchannels(),
                         rate=wf.getframerate(),
                         output=True)
-
         # 写声音输出流进行播放
         while True:
             data = wf.readframes(chunk)
             if data == "": break
             stream.write(data)
-
         stream.close()
         p.terminate()
 
 
 if __name__ == '__main__':
     p = voice()
-
     p.play('the_mess.wav')
     print p.name

@@ -9,6 +9,14 @@ import my_audio
 
 class memory():
     def __init__(self, host, port, user, passwd, db):
+        '''
+        初始化的方法，主要是存储连接数据库的参数
+        :param host:
+        :param port:
+        :param user:
+        :param passwd:
+        :param db:
+        '''
         self.host = host
         self.port = port
         self.user = user
@@ -16,8 +24,13 @@ class memory():
         self.db = db
 
     def addsong(self, path):
+        '''
+        添加歌曲方法，将歌曲名和歌曲特征指纹存到数据库
+        :param path: 歌曲路径
+        :return:
+        '''
         if type(path) != str:
-            raise TypeError,'path need string'
+            raise TypeError, 'path need string'
         basename = os.path.basename(path)
         try:
             conn = MySQLdb.connect(host=self.host, port=self.port, user=self.user, passwd=self.passwd, db=self.db,
@@ -38,11 +51,6 @@ class memory():
         cur.close()
         conn.close()
 
-    def tuple_compare(self, a, b):
-        diff = 0
-        for i in range(len(a)):
-            diff += abs(a[i] - b[i])
-        return diff
 
     def fp_compare(self, search_fp, match_fp):
         '''
@@ -66,15 +74,21 @@ class memory():
         return max_similar
 
     def search(self, path):
+        '''
+        搜索方法，输入为文件路径
+        :param path: 待检索文件路径
+        :return: 按照相似度排序后的列表，元素类型为tuple，二元组，歌曲名和相似匹配值
+        '''
+        #先计算出来我们的音频指纹
         v = my_audio.voice()
         v.loaddata(path)
         v.fft()
-        # print v.high_point
+        #尝试连接数据库
         try:
             conn = MySQLdb.connect(host=self.host, port=self.port, user=self.user, passwd=self.passwd, db=self.db,
                                    charset='utf8')
         except:
-            raise IOError,'DataBase error'
+            raise IOError, 'DataBase error'
         cur = conn.cursor()
         cur.execute("SELECT * FROM fingerprint.musicdata")
         result = cur.fetchall()
@@ -88,6 +102,11 @@ class memory():
         return compare_res
 
     def search_and_play(self, path):
+        '''
+        搜索方法顺带了播放方法
+        :param path:文件路径
+        :return:
+        '''
         v = my_audio.voice()
         v.loaddata(path)
         v.fft()
@@ -122,4 +141,4 @@ if __name__ == '__main__':
     sss.addsong('end_of_world.wav')
     sss.addsong('pianai.wav')
 
-    sss.search_and_play('record_pianai.wav')
+    sss.search_and_play('record.wav')
