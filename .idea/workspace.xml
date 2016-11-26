@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="505acf67-54aa-487f-a322-a4c79f0c9d47" name="Default" comment="修改了异常捕获">
+    <list default="true" id="505acf67-54aa-487f-a322-a4c79f0c9d47" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/order_audio/order_analysis.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/order_audio/record.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/memory.py" afterPath="$PROJECT_DIR$/memory.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_audio.py" afterPath="$PROJECT_DIR$/my_audio.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/record.py" afterPath="$PROJECT_DIR$/record.py" />
     </list>
     <ignored path="python-audio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,11 +54,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-      <file leaf-file-name="my_audio.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="my_audio.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_audio.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="-2256">
+              <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
               <folding>
                 <element signature="e#14#23#0" expanded="true" />
               </folding>
@@ -110,6 +109,26 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="order_analysis.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/order_audio/order_analysis.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="record.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/order_audio/record.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -139,6 +158,7 @@
         <option value="$PROJECT_DIR$/my_audio.py" />
         <option value="$PROJECT_DIR$/record.py" />
         <option value="$PROJECT_DIR$/memory.py" />
+        <option value="$PROJECT_DIR$/order_audio/order_analysis.py" />
       </list>
     </option>
   </component>
@@ -197,6 +217,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python-audio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python-audio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="order_audio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -210,6 +244,11 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.data.extractors.current" value="CSV-Groovy.csv.groovy" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\data\python-audio\order_audio" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.memory">
     <configuration default="false" name="memory" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -653,7 +692,14 @@
       <option name="project" value="LOCAL" />
       <updated>1479692538165</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="增加了注释文档&#10;">
+      <created>1480143325412</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1480143325412</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -748,7 +794,8 @@
     <MESSAGE value="完成了整个的项目核心" />
     <MESSAGE value="增加了查询后直接播放的功能" />
     <MESSAGE value="修改了异常捕获" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改了异常捕获" />
+    <MESSAGE value="增加了注释文档&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加了注释文档&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -757,30 +804,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/my_audio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/memory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2640">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#25#0" expanded="true" />
-            <marker date="1480142252297" expanded="true" signature="978:1036" ph="select * fro... musicdata" />
-            <marker date="1480142252297" expanded="true" signature="1237:1288" ph="insert into fingerprint.musicdata... " />
-            <marker date="1480142252297" expanded="true" signature="2569:2604" ph="SELECT * FRO... musicdata" />
-            <marker date="1480142252297" expanded="true" signature="3406:3441" ph="SELECT * FRO... musicdata" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/record.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1248">
@@ -1017,6 +1040,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/my_audio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2256">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+          <folding>
+            <element signature="e#14#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order_audio/record.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="dbDummy://dbtable:/9d5afa52/09822182-3adb-44b3-804f-3935b1a6803a/fingerprint.musicdata">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1054,13 +1095,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_audio.py">
+    <entry file="file://$PROJECT_DIR$/order_audio/order_analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding>
-            <element signature="e#14#23#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="48">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
